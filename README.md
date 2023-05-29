@@ -7,7 +7,7 @@ In this paper, we explore an optimization model that could be used to reduce the
 Our case study uses data from one scheduling period and then we show 3 additional examples designed to force the model to make the best choice given the constraints and objective.
 
 Tools:  Python vs 3.6 and the PuLP package.
-
+![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/NurseOpt.jpg)
 
 
 ## Crime: insights from Louisville
