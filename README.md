@@ -13,9 +13,9 @@ Tools:  Python vs 3.6 and the PuLP package.
 ## [Decision Making Under Uncertainty](https://github.com/deloresmincarelli/BusinessAnalyticsProjects/blob/master/DecisionUncertainty_Portfolio.pdf)
 MS Business Analytics, University of Cincinnati
 <br> We have all faced decisions when the information we have is uncertain or incomplete.  However, decision - analysis techniques and simulation can help quantify what-ifs, worst-case, best-case scenarios. Motivated by an active hurricane season in 2020, I explore options for evacuating a hospital when under threat of a hurricane. 
+<br> Tools:  R, Palisade suite of software for decision tree, simulation
 
-
-![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/NurseOpt.jpg)
+![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/HurricaneDecision.jpg)
 
 
 ## Crime: insights from Louisville
