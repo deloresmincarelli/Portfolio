@@ -1,4 +1,7 @@
 # Delores Mincarelli Datascience Portfolio
-Project 1: Crime: insights from Louisville
+
+## Nurse Scheduling Optimization (school extra credit project)
+
+## Crime: insights from Louisville
 
 
