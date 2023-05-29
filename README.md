@@ -1,4 +1,4 @@
-# Portfolio
-Collection of data science projects
+# Delores Mincarelli Datascience Portfolio
+Project 1: Crime: insights from Louisville
 
-This portfolio contains project summaries as well as code. 
+
