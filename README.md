@@ -1,10 +1,18 @@
-# Delores Mincarelli Datascience Portfolio
+## Delores Mincarelli Datascience Portfolio
+
+
+## [Crime in Louisville 2022: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
+I moved to Louisville in 2022 and decided to put my datascience skills to use by exploring public data on crime in my new home town. 
+<br> Tools: R
+<br> Technique: Kmeans clustering
+![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/CrimeCluster.jpg)
+
 
 ## [Nurse Scheduling Optimization](https://github.com/deloresmincarelli/BusinessAnalyticsProjects/blob/master/NurseOptimization.pdf)
 MS Business Analytics, University of Cincinnati
 <br> In this paper, I explore an optimization model that could be used to reduce the amount of time it takes a nurse manager to balance nurse self-scheduling requests with hospital requirements. This case study uses a specific department at a hospital in Cincinnati for initial data and business rules. This department was one of several chosen to prototype self-scheduling.
 
-Our case study uses data from one scheduling period and then we show 3 additional examples designed to force the model to make the best choice given the constraints and objective.
+This case study uses data from one scheduling period, followed by 3 additional examples designed to force the model to make the best choice given the constraints and objective.
 
 Tools:  Python vs 3.6 and the PuLP package.
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/NurseOpt.jpg)
@@ -19,10 +27,6 @@ MS Business Analytics, University of Cincinnati
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/HurricaneDecision.jpg)
 
 
-## [Crime in Louisville 2022: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
-I moved to Louisville in 2022 and decided to put my datascience skills to use by exploring public data on crime in my new home town. 
-<br> Tools: R
-<br> Technique: Kmeans clustering
-![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/CrimeCluster.jpg)
+
 
 
