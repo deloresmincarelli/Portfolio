@@ -12,14 +12,16 @@ Tools:  Python vs 3.6 and the PuLP package.
 
 ## [Decision Making Under Uncertainty](https://github.com/deloresmincarelli/BusinessAnalyticsProjects/blob/master/DecisionUncertainty_Portfolio.pdf)
 MS Business Analytics, University of Cincinnati
-<br> We have all faced decisions when the information we have is uncertain or incomplete.  However, decision - analysis techniques and simulation can help quantify what-ifs, worst-case, best-case scenarios. Motivated by an active hurricane season in 2020, I explore options for evacuating a hospital when under threat of a hurricane. 
+<br> We have all had to make decisions when the information we have is uncertain or incomplete.  Decision - analysis techniques and simulation can help quantify what-ifs, worst-case, and best-case scenarios. Motivated by an active hurricane season in 2020, I explore a framework to aide in a hospital evacuation decision.  This model includes random variables, a decision tree to quantify the cost of the decision, and simulation to explore the cost distribution.  
 <br> Tools:  R, Palisade suite of software for decision tree, simulation
 
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/HurricaneDecision.jpg)
 
 
 ## [Crime in Louisville 2022: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
-I moved to Louisville in 2022 and decided to put my datascience skills to use by exploring public data. A few high profile crime incidents propelled me to explore crime in the place I now call home.
+I moved to Louisville in 2022 and decided to put my datascience skills to use by exploring public data on crime in my new home town. 
+<br> Tools: R
+<br> Technique: Kmeans clustering
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/CrimeCluster.jpg)
 
 
