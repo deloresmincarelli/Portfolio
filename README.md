@@ -18,8 +18,8 @@ MS Business Analytics, University of Cincinnati
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/HurricaneDecision.jpg)
 
 
-## Crime: insights from Louisville
-[Louisville Crime Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
+## [Crime in Louisville 2022: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
+I moved to Louisville in 2022 and decided to put my datascience skills to use by exploring public data. A few high profile crime incidents propelled me to explore crime in the place I now call home.
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/CrimeCluster.jpg)
 
 
