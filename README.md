@@ -19,7 +19,7 @@ MS Business Analytics, University of Cincinnati
 
 
 ## Crime: insights from Louisville
-[Louisville Crime Analysis & Clustering](http://htmlpreview.github.io/?crimeLouisville.html)
+[Louisville Crime Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/CrimeCluster.jpg)
 
 
