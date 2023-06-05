@@ -19,5 +19,6 @@ MS Business Analytics, University of Cincinnati
 
 
 ## Crime: insights from Louisville
+http://htmlpreview.github.io/?crimeLouisville.html
 
 
