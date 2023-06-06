@@ -25,7 +25,7 @@ MS Business Analytics, University of Cincinnati
 <br> Use Case:  Motivated by an active hurricane season in 2020, I explore a framework to aide in a hospital evacuation decision.  This model includes random variables, a decision tree to quantify the cost of the decision, and simulation to explore the cost distribution.  
 <br> Tools:  R, Palisade suite of software for decision tree, simulation
 
-<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/HurricaneDecision.jpg" width="200" />
+<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/HurricaneDecision.jpg" width="400" />
 
 
 
