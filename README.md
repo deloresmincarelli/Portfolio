@@ -6,10 +6,12 @@
 I moved to Louisville in 2022 and decided to put my datascience skills to use by exploring public data on crime in my new home town. 
 <b> Further,  I did not find any public advanced analytics on Louisville crime.  This is a new study! </b>
 <br>
+<br>
 Questions Answered:
 - What types of crimes occur? Where? When?
 - Does the Kentucky Derby cause a spike in crime?
 - Which zipcodes have similar crime patterns?
+<br>
 <br> Tools: R
 <br> Technique: Kmeans clustering
 
