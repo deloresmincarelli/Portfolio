@@ -5,9 +5,10 @@
 ## [Crime in Louisville 2022: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
 I moved to Louisville in 2022 and decided to put my datascience skills to use by exploring public data on crime in my new home town. 
 <b> Further,  I did not find any public advanced analytics on Louisville crime.  This is a new study! </b>
+<br> Questions Answered:
 - What types of crimes occur? Where? When?
 - Does the Kentucky Derby cause a spike in crime?
-- Can crimes be clustered by zip code?
+- Which zipcodes have similar crime patterns?
 <br> Tools: R
 <br> Technique: Kmeans clustering
 
