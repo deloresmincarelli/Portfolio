@@ -40,6 +40,6 @@ Tools:  Python vs 3.6 and the PuLP package.
 
 [pptx file with notes: select "view raw"](https://github.com/deloresmincarelli/Portfolio/blob/main/DecisionUncertainty_Portfolio.pptx)
 
-
+## More is coming!  Regression (linear, decision tree, ensemble), Classification, and NLP.
 
 
