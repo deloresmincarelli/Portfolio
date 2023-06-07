@@ -11,7 +11,6 @@ Questions Answered:
 - What types of crimes occur? Where? When?
 - Does the Kentucky Derby cause a spike in crime?
 - Which zipcodes have similar crime patterns?
-<br>
 <br> Tools: R
 <br> Technique: Kmeans clustering
 
