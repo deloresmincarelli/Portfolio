@@ -25,7 +25,7 @@ Tools:  Python vs 3.6 and the PuLP package.
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/NurseOpt.jpg" width="500" />
 
 ## [Decision Making Under Uncertainty](https://github.com/deloresmincarelli/Portfolio/blob/main/DecisionUncertainty_Portfolio.pdf)
-[pptx file with notes: select "view raw"](https://github.com/deloresmincarelli/BusinessAnalyticsProjects/blob/master/DecisionUncertainty_Portfolio.pptx)
+[pptx file with notes: select "view raw"](https://github.com/deloresmincarelli/Portfolio/blob/main/DecisionUncertainty_Portfolio.pptx)
 <br> MS Business Analytics, University of Cincinnati
 <br> We have all had to make decisions when the information we have is uncertain or incomplete.  Decision - analysis techniques and simulation can help quantify what-ifs, worst-case, and best-case scenarios. 
 <br> Use Case:  Motivated by an active hurricane season in 2020, I explore a framework to aide in a hospital evacuation decision.  This model includes random variables, a decision tree to quantify the cost of the decision, and simulation to explore the cost distribution.  
