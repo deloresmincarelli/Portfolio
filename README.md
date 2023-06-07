@@ -37,7 +37,7 @@ Tools:  Python vs 3.6 and the PuLP package.
 <br> Tools:  R, Palisade suite of software for decision tree, simulation
 
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/HurricaneDecision.jpg" width="500" />
-[pptx file with notes: select "view raw"](https://github.com/deloresmincarelli/Portfolio/blob/main/DecisionUncertainty_Portfolio.pptx)
+## [pptx file with notes: select "view raw"](https://github.com/deloresmincarelli/Portfolio/blob/main/DecisionUncertainty_Portfolio.pptx)
 
 
 
