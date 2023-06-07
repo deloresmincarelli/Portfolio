@@ -16,7 +16,8 @@ I moved to Louisville in 2022 and decided to put my datascience skills to use by
 
 ## [Nurse Scheduling Optimization](https://github.com/deloresmincarelli/Portfolio/blob/main/Optimization_Portfolio.pdf)
 MS Business Analytics, University of Cincinnati
-<br> In this paper, I explore an optimization model that could be used to reduce the amount of time it takes a nurse manager to balance nurse self-scheduling requests with hospital requirements. This case study uses a specific department at a hospital in Cincinnati for initial data and business rules. This department was one of several chosen to prototype self-scheduling.
+<br> How do you juggle employee shift preferences with business needs, in a way that builds confidence in a fair system?
+In this paper, I explore an optimization model that could be used to automate this complex decision making, reducing the amount of time it takes a nurse manager to balance nurse self-scheduling requests with hospital requirements. This case study uses a specific department at a hospital in Cincinnati for initial data and business rules. This department was one of several chosen to prototype self-scheduling.
 
 This case study uses data from one scheduling period, followed by 3 additional examples designed to force the model to make the best choice given the constraints and objective.
 
