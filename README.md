@@ -4,7 +4,7 @@
 
 ## [Predicting Jet Engine Failure](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
 Is there a competitive advantage in how businesses manage their key assets?
-Predicting failures impacts the bottom line. Consider the following:
+<br> Predicting failures impacts the bottom line. Consider the following:
 <br>
 - Personnel Safety - catastrophic equipment failure can be deadly in certain industries.
 - Inventory Management - avoid unplanned downtime by having parts when you need them, but, avoid having too much to keep costs down.
