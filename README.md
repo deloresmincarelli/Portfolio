@@ -2,6 +2,20 @@
 
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
+## [Predicting Jet Engine Failures://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
+Is there a competitive advantage in how businesses manage their key assets?
+Predicting failures impacts the bottom line. Consider the following:
+
+Personnel Safety - catastrophic equipment failure can be deadly in certain industries.
+Inventory Management - avoid unplanned downtime by having parts when you need them, but, avoid having too much to keep costs down.
+Reducing costs - replacing equipment too early is wasteful, but, too late can lead to overtime costs to fix in off hours, and variation in planned throughput.
+
+In this analysis, I use simulated jet engine data from NASA to predict whether an engine will fail within 30 cycles.
+<br> Tools: R
+<br> Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis.
+
+<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="500" />
+
 ## [Crime in Louisville 2022: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
 I moved to Louisville in 2022 and decided to put my datascience skills to use by exploring public data on crime in my new home town. 
 <b> Further,  I did not find any public advanced analytics on Louisville crime.  This is a new study! </b>
