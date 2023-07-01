@@ -5,11 +5,11 @@
 ## [Predicting Jet Engine Failures](https://https://htmlpreview.github.io/?github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
 Is there a competitive advantage in how businesses manage their key assets?
 Predicting failures impacts the bottom line. Consider the following:
-
-Personnel Safety - catastrophic equipment failure can be deadly in certain industries.
-Inventory Management - avoid unplanned downtime by having parts when you need them, but, avoid having too much to keep costs down.
-Reducing costs - replacing equipment too early is wasteful, but, too late can lead to overtime costs to fix in off hours, and variation in planned throughput.
-
+<br>
+- Personnel Safety - catastrophic equipment failure can be deadly in certain industries.
+- Inventory Management - avoid unplanned downtime by having parts when you need them, but, avoid having too much to keep costs down.
+- Reducing costs - replacing equipment too early is wasteful, but, too late can lead to overtime costs to fix in off hours, and variation in planned throughput.
+<br>
 In this analysis, I use simulated jet engine data from NASA to predict whether an engine will fail within 30 cycles.
 <br> Tools: R
 <br> Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis.
