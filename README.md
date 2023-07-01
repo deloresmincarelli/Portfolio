@@ -2,7 +2,7 @@
 
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
-## [Predicting Jet Engine Failures](https://https://htmlpreview.github.io/?github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
+## [Predicting Jet Engine Failures](https://htmlpreview.github.io/?github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
 Is there a competitive advantage in how businesses manage their key assets?
 Predicting failures impacts the bottom line. Consider the following:
 <br>
@@ -16,7 +16,7 @@ In this analysis, I use simulated jet engine data from NASA to predict whether a
 
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="500" />
 
-## [Crime in Louisville 2022: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
+## [Crime in Louisville: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
 I moved to Louisville in 2022 and decided to put my datascience skills to use by exploring public data on crime in my new home town. 
 <b> Further,  I did not find any public advanced analytics on Louisville crime.  This is a new study! </b>
 <br>
