@@ -2,7 +2,7 @@
 
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
-## [Predicting Jet Engine Failures://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
+## [Predicting Jet Engine Failures](https://https://htmlpreview.github.io/?github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
 Is there a competitive advantage in how businesses manage their key assets?
 Predicting failures impacts the bottom line. Consider the following:
 
