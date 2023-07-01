@@ -11,9 +11,12 @@ Predicting failures impacts the bottom line. Consider the following:
 - Reducing costs - replacing equipment too early is wasteful, but, too late can lead to overtime costs to fix in off hours, and variation in planned throughput.
 <br>
 In this analysis, I use simulated jet engine data from NASA to predict whether an engine will fail within 30 cycles.
+<br> Part 1
 <br> Tools: R
 <br> Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis.
-
+<br> Part 2 - in process
+<br> Tools: Python
+<br> Technique: Loong Short Term Memory Neural Network (LTSM)
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="500" />
 
 ## [Crime in Louisville: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
@@ -54,6 +57,6 @@ Tools:  Python vs 3.6 and the PuLP package.
 
 [pptx file with notes: select "view raw"](https://github.com/deloresmincarelli/Portfolio/blob/main/DecisionUncertainty_Portfolio.pptx)
 
-## More is coming!  Regression (linear, decision tree, ensemble), Classification, and NLP.
+## Coming Soon! Long Short Term Memory Neural Network, NLP, Auto Machine Learning
 
 
