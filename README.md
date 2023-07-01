@@ -12,8 +12,8 @@ Predicting failures impacts the bottom line. Consider the following:
 In this analysis, I use simulated jet engine data from NASA to predict whether an engine will fail within 30 cycles.
 <br> Part 1: Tools: R
 <br> Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis.
-<br> Part 2 - in process, Tools: Python
-<br> Technique: Loong Short Term Memory Neural Network (LTSM)
+<br> Part 2 - Tools: Python (in process)
+<br> Technique: Long Short Term Memory Neural Network (LTSM)
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="500" />
 
 ## [Crime in Louisville: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
