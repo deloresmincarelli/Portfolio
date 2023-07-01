@@ -9,7 +9,7 @@ Is there a competitive advantage in how businesses manage their key assets?
 - Personnel Safety - catastrophic equipment failure can be deadly in certain industries.
 - Inventory Management - avoid unplanned downtime by having parts when you need them, but, avoid having too much to keep costs down.
 - Reducing costs - replacing equipment too early is wasteful, but, too late can lead to overtime costs to fix in off hours, and variation in planned throughput.
-In this analysis, I use simulated jet engine data from NASA to predict whether an engine will fail within 30 cycles.
+<br> In this analysis, I use simulated jet engine data from NASA to predict whether an engine will fail within 30 cycles.
 <br> Part 1: Tools: R
 <br> Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis.
 <br> Part 2 - Tools: Python (in process)
