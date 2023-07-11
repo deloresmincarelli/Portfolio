@@ -12,7 +12,7 @@ Is there a competitive advantage in how businesses manage their key assets?
 <br> In this analysis, I use simulated jet engine data from NASA to predict whether an engine will fail within 30 cycles.
 <br> Part 1: Tools: R
 <br> Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis.
-<br> [Part 2 - Tools: Python, VSCode, GitHub](JetEngineLSTM.ipynb)
+<br> [Part 2 - Tools: Python, VSCode, GitHub](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/JetEngineLSTM/blob/main/JetEngineLSTM.html)
 <br> Technique: Long Short Term Memory Neural Network (LTSM)
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="500" />
 
