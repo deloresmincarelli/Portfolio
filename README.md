@@ -3,15 +3,17 @@
 ## Welcome!
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
-## [Predicting Jet Engine Failure](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
+## [Predicting Jet Engine Failure]
 Is there a competitive advantage in how businesses manage their key assets?
 <br> Predicting failures impacts the bottom line. Consider the following:
 <br>
 - Personnel Safety - catastrophic equipment failure can be deadly in certain industries.
 - Inventory Management - avoid unplanned downtime by having parts when you need them, but, avoid having too much to keep costs down.
 - Reducing costs - replacing equipment too early is wasteful, but, too late can lead to overtime costs to fix in off hours, and variation in planned throughput.
+<br> 
 <br> In this analysis, I use simulated jet engine data from NASA to predict whether an engine will fail within 30 cycles.
-<br> Part 1: Tools: R
+<br> 
+<br> [Part 1: Tools: R](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
 <br> Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis.
 <br> [Part 2 - Tools: Python, VSCode, GitHub](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/JetEngineLSTM/blob/main/JetEngineLSTM.html)
 <br> Technique: Long Short Term Memory Neural Network (LTSM)
