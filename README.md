@@ -3,7 +3,7 @@
 ## Welcome!
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
-## [Predicting Jet Engine Failure]
+## Predicting Jet Engine Failure
 Is there a competitive advantage in how businesses manage their key assets?
 <br> Predicting failures impacts the bottom line. Consider the following:
 <br>
@@ -11,10 +11,10 @@ Is there a competitive advantage in how businesses manage their key assets?
 - Inventory Management - avoid unplanned downtime by having parts when you need them, but, avoid having too much to keep costs down.
 - Reducing costs - replacing equipment too early is wasteful, but, too late can lead to overtime costs to fix in off hours, and variation in planned throughput.
 <br> In this analysis, I use simulated jet engine data from NASA to predict whether an engine will fail within 30 cycles.
-<br> 
-[Part 1: Tools: R](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
+## [Part 1: Tools: R](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
 <br> Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis.
-[Part 2 - Tools: Python, VSCode, GitHub](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/JetEngineLSTM/blob/main/JetEngineLSTM.html)
+<br> 
+## [Part 2 - Tools: Python, VSCode, GitHub](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/JetEngineLSTM/blob/main/JetEngineLSTM.html)
 <br> Technique: Long Short Term Memory Neural Network (LTSM)
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="500" />
 
