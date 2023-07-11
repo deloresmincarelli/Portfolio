@@ -1,6 +1,17 @@
 ## Delores Mincarelli Datascience Portfolio
 
-## Welcome!
+## Welcome!  Let's get to know each other:
+To me, there is nothing more exciting to me than a new dataset. 
+
+For several years I have rolled up my sleeves to help clinicians and managers make better decisions backed by sound data analysis. This required a deep - dive into their business, learning about their problems and concerns, and then being a professional sleuth to find and curate the data to underpin the analytics. 
+
+I love using data-for-good. 
+
+I'm an end-to-end person .. no need to throw a specification over the wall to me! I work side by side with customers in an iterative and layered approach so we have frequent checks and an evolution of the end result.
+
+But one of the most important characteristics I bring is humility and passion for learning; I know how much I don't know. But I'm committed to learning from others and sharing what I know to continually raise the bar for the organization.
+
+
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
 ## Predicting Jet Engine Failure
