@@ -1,6 +1,6 @@
 ## Delores Mincarelli Datascience Portfolio
 
-## Welcome!  Let's get to know each other:
+## Welcome!  Let me introduce myself:
 To me, there is nothing more exciting to me than a new dataset. 
 
 For several years I have rolled up my sleeves to help clinicians and managers make better decisions backed by sound data analysis. This required a deep - dive into their business, learning about their problems and concerns, and then being a professional sleuth to find and curate the data to underpin the analytics. 
@@ -27,6 +27,9 @@ Is there a competitive advantage in how businesses manage their key assets?
 #### [Part 1: Tools: R, Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
 #### [Part 2: Tools: Python, Technique: Long Short Term Memory Neural Network LSTM](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/JetEngineLSTM/blob/main/JetEngineLSTM.html)
 <br> 
+
+## Predict Diabetes, Save results to database,  and use Natural Language to query the results
+This project accomplished 4 things:
 
 
 ## [Crime in Louisville: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
