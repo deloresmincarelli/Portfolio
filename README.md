@@ -15,7 +15,7 @@ But one of the most important characteristics I bring is humility and passion fo
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
 ## Predicting Jet Engine Failure
-<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="800" />
+<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="400" />
 
 Is there a competitive advantage in how businesses manage their key assets?
 <br> Predicting failures impacts the bottom line. Consider the following:
@@ -38,7 +38,7 @@ This project accomplished 4 things:
 2. Create a sqlite database (using DBeaver software) and import the diabetes predictions generated in Step 1.
 3. Use the OpenAI generative language model (LLM) to write natural language questions to query the data in the database.
 4. Provide a web interface for the user to enter their questions, and view the answer.
-<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/diabetes_streamlit.jpg" width="500" />
+<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/diabetes_streamlit.jpg" width="800" />
 
 Tools: Python (H2O Auto ML , langchain Open AI,  streamlit ), OpenAI generative language model,  DBeaver for db creation
 
