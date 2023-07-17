@@ -31,8 +31,8 @@ Is there a competitive advantage in how businesses manage their key assets?
 ## Predict Diabetes, Save results to database,  and use Natural Language to query the results
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/DiabetesGBMVarImportance.jpg" width="500" />
 This project accomplished 4 things:
-1. Use Auto Machine Learning to classify patients with diabetes (0/1). AutoML runs several models at once, tunes all of the hyperparameters, and provides results for each model for comparison.
-#### [AutoML](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/diabetes_model.html)
+<br> 1. Use Auto Machine Learning to classify patients with diabetes (0/1). AutoML runs several models at once, tunes all of the hyperparameters, and provides results for each model for comparison.
+#### [See results of AutoML](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/diabetes_model.html)
 
 2. Create a sqlite database (using DBeaver software) and import the diabetes predictions generated in Step 1.
 3. Use the OpenAI generative language model (LLM) to write natural language questions to query the data in the database.
