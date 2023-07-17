@@ -40,6 +40,9 @@ This project accomplished 4 things:
 4. Provide a web interface for the user to enter their questions, and view the answer.
 Tools: Python (H2O Auto ML , langchain Open AI,  streamlit ), OpenAI generative language model,  DBeaver for db creation
 
+#### [Query the database](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/diabetes_streamlit_app · Streamlit.html)
+
+
 ## [Crime in Louisville: Analysis & Clustering](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/crimeLouisville.html)
 I moved to Louisville in 2022 and decided to put my datascience skills to use by exploring public data on crime in my new home town. 
 <b> Further,  I did not find any public advanced analytics on Louisville crime.  This is a new study! </b>
