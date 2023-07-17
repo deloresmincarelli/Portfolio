@@ -15,7 +15,7 @@ But one of the most important characteristics I bring is humility and passion fo
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
 ## Predicting Jet Engine Failure
-<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="500" />
+<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="800" />
 
 Is there a competitive advantage in how businesses manage their key assets?
 <br> Predicting failures impacts the bottom line. Consider the following:
