@@ -41,6 +41,7 @@ This project not only used auto-machine-learning for classification, it included
 2. Create a sqlite database (using DBeaver software) and import the diabetes predictions generated in Step 1.
 3. Use the OpenAI generative language model (LLM) to write natural language questions to query the data in the database.  (SUBSCRIPTION REQUIRED)
 4. Provide a web interface for the user to enter their questions, and view the answer.
+
 #### [See Web app and OpenAI code](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/diabetes_streamlit_app.py)
    
 Tools: Python (H2O Auto ML , langchain Open AI,  streamlit ), OpenAI generative language model,  DBeaver for db creation
