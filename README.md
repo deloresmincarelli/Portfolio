@@ -29,9 +29,9 @@ Is there a competitive advantage in how businesses manage their key assets?
 <br> 
 
 ## Predict Diabetes, Save results to database,  and use Natural Language to query the results
-This project not only used auto machine learnings for predictions, it also included using OpenAI generative language model to query the results. 
+This project not only used auto-machine-learning for classification, it included OpenAI to enable the user/customer to interact with the data.
 <br> This image shows a question entered by the user, which was interpreted by OpenAI and converted to SQL.  The SQL was run against a database with the prediction results. 
->br> You can see the results displayed, along with the query.  Note, OpenAI had to join two tables with no guidance in order to answer this question.
+<br> You can see the results displayed, along with the query.  Note, OpenAI had to join two tables with no guidance in order to answer this question.
 ><img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/diabetes_streamlit.jpg" width="1000" />
 <br> Steps:
 <br> 1. Use Auto Machine Learning to classify patients with diabetes (0/1). AutoML runs several models at once, tunes all of the hyperparameters, and provides results for each model for comparison.
