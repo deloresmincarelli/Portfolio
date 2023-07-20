@@ -12,11 +12,10 @@ I'm an end-to-end person .. no need to throw a specification over the wall to me
 But one of the most important characteristics I bring is humility and passion for learning; I know how much I don't know. I'm **committed** to learning from others and sharing what I know to continually raise the bar for the organization.
 
 
+![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
+
 ## Project : Generating Synthetic Data
 #### [Tools: Python, using Synthetic Data Vault](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
-
-
-![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
 ## Project :  Predicting Jet Engine Failure
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="400" />
