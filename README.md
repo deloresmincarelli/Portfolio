@@ -14,8 +14,9 @@ But one of the most important characteristics I bring is humility and passion fo
 
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
-## Project : Generating Synthetic Data
-#### [Tools: Python, using Synthetic Data Vault](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
+## [Generating Synthetic Data](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
+
+<br> Tools: Python - using Synthetic Data Vault
 
 ## Project :  Predicting Jet Engine Failure
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="400" />
