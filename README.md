@@ -15,9 +15,15 @@ But one of the most important characteristics I bring is humility and passion fo
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
 ## [Generating Synthetic Data](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
+This project is a proof-of-concept to get familiar with generating synthetic data.  
+<br> Synthetic data is useful to complement existing data for "edge" cases, amplifying minority data, or even a way to circumvent using sensitive & protected information.
 
+<br> In this example, I used the Synthetic Data Vault (SDV), which is a Python library designed to be a one-stop shop for creating tabular synthetic data.
+The SDV offers multiple machine learning models -- ranging from classical statistical methods (Copulas) to deep learning methods (GANs). 
+It can generate data for single tables, multiple connected tables or sequential tables.
 <br> Tools: Python - using Synthetic Data Vault
-
+<br> 
+<br> 
 ## Project :  Predicting Jet Engine Failure
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="400" />
 
