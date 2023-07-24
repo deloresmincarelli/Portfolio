@@ -15241,9 +15241,13 @@ It can generate data for single tables, multiple connected tables or sequential 
 </ul>
 <p>References:</p>
 <ul>
-<li><p><a href="https://docs.sdv.dev/sdv">https://docs.sdv.dev/sdv</a></p>
+<li><p>Data
+<br> <a href="https://www.kaggle.com/datasets/behrad3d/nasa-cmaps">https://www.kaggle.com/datasets/behrad3d/nasa-cmaps</a> <a href="https://www.nasa.gov/content/prognostics-center-of-excellence-data-set-repository">https://www.nasa.gov/content/prognostics-center-of-excellence-data-set-repository</a></p>
 </li>
-<li><p>Video on why use synthetic data from &quot;mostly ai&quot;
+<li><p>Synthetic Data Vault
+<br> <a href="https://docs.sdv.dev/sdv">https://docs.sdv.dev/sdv</a></p>
+</li>
+<li><p>Video on why use synthetic data from company &quot;Mostly AI&quot;
 <br> <a href="https://www.youtube.com/watch?v=Qs-0zXeE9J4">https://www.youtube.com/watch?v=Qs-0zXeE9J4</a>
 <br> <a href="https://mostly.ai/">https://mostly.ai/</a></p>
 </li>
@@ -15327,8 +15331,7 @@ It can generate data for single tables, multiple connected tables or sequential 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Jet-Engine---Load-&amp;-Prepare-Data">Jet Engine - Load &amp; Prepare Data<a class="anchor-link" href="#Jet-Engine---Load-&amp;-Prepare-Data">&#182;</a></h4><p>Note, this dataset is sequential in nature.<br />
-<br> There are specific synthetic data models that can be used for such data, but I chose to start with a simple model first.</p>
+<h4 id="Jet-Engine---Load-&amp;-Prepare-Data">Jet Engine - Load &amp; Prepare Data<a class="anchor-link" href="#Jet-Engine---Load-&amp;-Prepare-Data">&#182;</a></h4><p>Note, this dataset is sequential in nature: each jet engine has separate records for different points in time when sensor readings are observed.    There are specific synthetic data models that can be used for sequential data, but,  I chose to start with a simple model first.   Thus, I'm treating each record in this dataset as an independent observation, ignoring the sequential nature.</p>
 
 </div>
 </div>
@@ -15617,7 +15620,8 @@ It can generate data for single tables, multiple connected tables or sequential 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h5 id="Create-PK">Create PK<a class="anchor-link" href="#Create-PK">&#182;</a></h5>
+<h5 id="Create-Primary-Key-(PK)">Create Primary Key (PK)<a class="anchor-link" href="#Create-Primary-Key-(PK)">&#182;</a></h5><p>Note:  In certain situations, SDV requires a PK when describing the meta-data of a dataset, thus I'm creating it here.</p>
+
 </div>
 </div>
 </div>
@@ -15861,9 +15865,11 @@ It can generate data for single tables, multiple connected tables or sequential 
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Note: in a previous notebook, I did extensive Exploratory Data Analysis on this dataset:</span>
 <span class="c1"># https://htmlpreview.github.io/?https://github.com/deloresmincarelli/JetEngineLSTM/blob/main/JetEngineLSTM.html</span>
-<span class="c1"># The sensors in the list -except 13,14 - are constant or nearly so, so no need for producing synthetic data.  </span>
-<span class="c1"># s13 &amp; 14 were not constant, but, interestingly, the synthesizer GENERATED synthetic data that was a constant</span>
-<span class="c1"># So, I&#39;m also removing s13 &amp; 14 from this proof-of-concept in order for the quality report to work correctly.  (it will churn, producing warnings if synthetic data is constant)</span>
+
+<span class="c1"># The sensors in the list below -except 13,14 - are constants -  or nearly so, so no need for producing synthetic data.  </span>
+<span class="c1"># s13 &amp; 14 were **not** constant, but, interestingly, the synthesizer GENERATED synthetic data that was a constant for these two.</span>
+<span class="c1"># So, I&#39;m also removing s13 &amp; 14 from this proof-of-concept in order for the quality report to work correctly.  </span>
+<span class="c1"># ... (otherwise, the report will churn and won&#39;t render  .. even though the SDV generated that data. !?)</span>
 
 <span class="n">remove_cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;setting3&#39;</span><span class="p">,</span> <span class="s1">&#39;s1&#39;</span><span class="p">,</span><span class="s1">&#39;s5&#39;</span><span class="p">,</span><span class="s1">&#39;s6&#39;</span><span class="p">,</span><span class="s1">&#39;s10&#39;</span><span class="p">,</span><span class="s1">&#39;s16&#39;</span><span class="p">,</span><span class="s1">&#39;s18&#39;</span><span class="p">,</span><span class="s1">&#39;s19&#39;</span><span class="p">,</span><span class="s1">&#39;s13&#39;</span><span class="p">,</span><span class="s1">&#39;s14&#39;</span><span class="p">]</span>
 <span class="n">valid_cols</span> <span class="o">=</span>  <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">train_df</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">x</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">remove_cols</span><span class="p">]</span>
@@ -16253,7 +16259,7 @@ memory usage: 3.0+ MB
 </div>
 </div>
 
-</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -16261,7 +16267,8 @@ memory usage: 3.0+ MB
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">filepath</span> <span class="o">=</span> <span class="s1">&#39;my_metadata_v1.json&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create a json for the metadata</span>
+<span class="n">filepath</span> <span class="o">=</span> <span class="s1">&#39;my_metadata_v1.json&#39;</span>
 
 <span class="c1"># Check if file exists</span>
 <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">filepath</span><span class="p">):</span>
@@ -16277,27 +16284,6 @@ memory usage: 3.0+ MB
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>File my_metadata_v1.json already exists. Deleting...
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
 </div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16306,7 +16292,7 @@ memory usage: 3.0+ MB
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># convert metadata to dict so it is easier to view</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># convert metadata to dict so it is easier to view what it looks like</span>
 <span class="n">python_dict</span> <span class="o">=</span> <span class="n">metadata</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()</span>
 <span class="n">python_dict</span>
 </pre></div>
@@ -16330,7 +16316,8 @@ memory usage: 3.0+ MB
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>{&#39;columns&#39;: {&#39;pk&#39;: {&#39;sdtype&#39;: &#39;categorical&#39;},
+<pre>{&#39;METADATA_SPEC_VERSION&#39;: &#39;SINGLE_TABLE_V1&#39;,
+ &#39;columns&#39;: {&#39;pk&#39;: {&#39;sdtype&#39;: &#39;categorical&#39;},
   &#39;id&#39;: {&#39;sdtype&#39;: &#39;numerical&#39;},
   &#39;cycle&#39;: {&#39;sdtype&#39;: &#39;numerical&#39;},
   &#39;setting1&#39;: {&#39;sdtype&#39;: &#39;numerical&#39;},
@@ -16348,8 +16335,7 @@ memory usage: 3.0+ MB
   &#39;s20&#39;: {&#39;sdtype&#39;: &#39;numerical&#39;},
   &#39;s21&#39;: {&#39;sdtype&#39;: &#39;numerical&#39;},
   &#39;RUL&#39;: {&#39;sdtype&#39;: &#39;numerical&#39;},
-  &#39;fail_in_30_label&#39;: {&#39;sdtype&#39;: &#39;numerical&#39;}},
- &#39;METADATA_SPEC_VERSION&#39;: &#39;SINGLE_TABLE_V1&#39;}</pre>
+  &#39;fail_in_30_label&#39;: {&#39;sdtype&#39;: &#39;numerical&#39;}}}</pre>
 </div>
 
 </div>
@@ -16442,6 +16428,18 @@ memory usage: 3.0+ MB
 
 </div>
 
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Let's look at our synthetic data</p>
+
+</div>
+</div>
+</div>
 </div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16632,6 +16630,19 @@ memory usage: 3.0+ MB
 
 </div>
 
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Looking at the synthetic data standard deviation, it did not produce any constants which is good.<br />
+<strong>But, now do we know if our data is any good?</strong></p>
+
+</div>
+</div>
+</div>
 </div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16925,7 +16936,22 @@ The evaluations below compare the real and synthetic data to determine whether t
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Overall Quality</strong></p>
+<p><strong>Overall Quality</strong>
+<br> (1) this ran for 6min
+<br> (2) if some of the synthetic data generated was a constant, this report will spin, never erroring, just giving warnings and never complete.
+<br> Luckily the warnings indicated the sensors with the constant values so I excluded them from the dataset just to get this to run.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The overall Quality Score was over 90%.  There is a further breakdown to measure how each column of synthetic data matches properties of the original called &quot;Column Shapes&quot;, and, a &quot;Column Pair&quot; evaluation which measures correlations between columns</p>
 
 </div>
 </div>
@@ -16938,8 +16964,7 @@ The evaluations below compare the real and synthetic data to determine whether t
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># this ran for 6min</span>
-<span class="c1"># Note: if some of the synthetic data is constant, this report will spin, never erroring, just giving warnings and never complete. </span>
+<div class=" highlight hl-ipython3"><pre><span></span> 
 <span class="n">quality_report</span> <span class="o">=</span> <span class="n">evaluate_quality</span><span class="p">(</span>
     <span class="n">real_data</span><span class="o">=</span><span class="n">train_df_valid</span><span class="p">,</span>
     <span class="n">synthetic_data</span><span class="o">=</span><span class="n">synthetic_data</span><span class="p">,</span>
@@ -17320,7 +17345,9 @@ class="
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Diagnostics</strong>
-<br> Diagnostics check to see if the synthetic rows are pure copies of the real data, if the synthetic data covers the full range of values and if the synthetic data adheres to the original ranges.
+<br> Diagnostics check to see if the synthetic rows are pure copies of the real data,
+<br> if the synthetic data covers the full range of values and
+<br> if the synthetic data adheres to the original ranges.
 <br> <a href="https://docs.sdv.dev/sdv/single-table-data/evaluation">https://docs.sdv.dev/sdv/single-table-data/evaluation</a></p>
 
 </div>
@@ -17401,7 +17428,7 @@ WARNING:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Visualize the best and worst sensor fit</strong></p>
+<p><strong>Visualize the best and worst comparison between synthetic and real data</strong></p>
 
 </div>
 </div>
@@ -17460,6 +17487,18 @@ class="
 
 </div>
 
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Sensor 9 had the worst synthetic data compared to the real data.  My interpretation is that the real data did not have a familiar distribution that could be used to generate new data. Indeed, when doing exploratory data analysis, this sensor had different patterns depending on the specific jet engine.  Thus, it's not surprising that the synthetic data is not a good representation.</p>
+
+</div>
+</div>
+</div>
 </div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -17522,7 +17561,7 @@ class="
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Column Pairs Visualization</strong>
-<br> Note: From previous analysis, sensors 11, 4, 12 had the greatest predictive power.  Below are vizzes comparing these sensors to Remaining Useful Life</p>
+<br> Note: From previous analysis, sensors 11, 4, 12 had the greatest predictive power on remaining-useful-life (RUL).  Below are vizzes comparing real vs synthetic to RUL.  While the overlap isn't perfect, it seems reasonably good.</p>
 
 </div>
 </div>
