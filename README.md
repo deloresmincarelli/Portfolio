@@ -15,9 +15,7 @@ But one of the most important characteristics I bring is humility and passion fo
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
 ## [Project : Generating Synthetic Data](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
-
-    <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg" width="400" />
-
+<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg" width="400" />
 
 This project is a proof-of-concept to get familiar with generating synthetic data.  
 <br> Synthetic data is useful to complement existing data for "edge" cases, amplifying minority data, or even a way to circumvent using sensitive & protected information.
