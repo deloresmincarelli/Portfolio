@@ -19,7 +19,6 @@ But one of the most important characteristics I bring is humility and passion fo
 
 This project is a proof-of-concept to get familiar with generating synthetic data.  
 <br> Synthetic data is useful to complement existing data for "edge" cases, amplifying minority data, or even a way to circumvent using sensitive & protected information.
-
 <br> In this example, I used the Synthetic Data Vault (SDV), which is a Python library designed to be a one-stop shop for creating tabular synthetic data.
 The SDV offers multiple machine learning models -- ranging from classical statistical methods (Copulas) to deep learning methods (GANs). 
 It can generate data for single tables, multiple connected tables or sequential tables.
