@@ -27,6 +27,8 @@ It can generate data for single tables, multiple connected tables or sequential 
 <br> Tools: Python - using Synthetic Data Vault
 <br> 
 <br> 
+
+## Now that you know who I am, let me show you what I can do:
 ## Project :  Predicting Jet Engine Failure
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="400" />
 
