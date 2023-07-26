@@ -29,7 +29,7 @@ This project is a proof-of-concept to get familiar with generating synthetic dat
 <br> Tools: Python - using Synthetic Data Vault
 Examply where SDV does a good job |  Example where SDV did not do a good job
 :---------------------------------------------:|:-------------------------:
-<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg" width="400" />
+![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg)  |  ![](https://...Ocean.png)
 
 <br> [The details](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
 
