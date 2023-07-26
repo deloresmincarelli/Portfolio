@@ -1,17 +1,18 @@
 ## Delores Mincarelli Datascience Portfolio
 
-## Welcome!  Let me introduce myself:
-To me, there is nothing more exciting to me than a new dataset. 
+## Welcome!  Let's begin with introductions: 
+I'm a data sleuth.  To me, there is nothing more exciting to me than a new dataset. 
 
 For years, I have rolled up my sleeves to help clinicians and managers make better decisions backed by sound data analysis. This required a deep - dive into their business, learning about their problems and concerns, and then being a professional sleuth to find and curate the data to underpin the analytics. 
 
 I love using data-for-good. 
 
-I'm an end-to-end person .. no need to throw a specification over the wall to me! I work side by side with customers in an iterative and layered approach so we have frequent checks and an evolution of the end result.
+I'm an end-to-end thinker .. no need to throw a specification over the wall to me! I work side by side with customers in an iterative and layered approach so we have frequent checks and an evolution of the end result.
 
 But one of the most important characteristics I bring is humility and passion for learning; I know how much I don't know. I'm **committed** to learning from others and sharing what I know to continually raise the bar for the organization.
 
 
+## I'm driven by a strong sense of purpose:
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
 ## [Project : Generating Synthetic Data](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
