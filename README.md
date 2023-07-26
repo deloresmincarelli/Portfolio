@@ -8,7 +8,7 @@ For years, I have rolled up my sleeves to help clinicians and managers make bett
 
 I love using data-for-good. 
 
-I'm an end-to-end thinker .. no need to throw a specification over the wall to me! I work side by side with customers in an iterative and layered approach so we have frequent checks and an evolution of the end result.
+I like being involved end-to-end .. no need to throw a specification over the wall to me! I work side by side with customers in an iterative and layered approach so we have frequent checks and an evolution of the end result.
 
 But one of the most important characteristics I bring is humility and passion for learning; I know how much I don't know. I'm **committed** to learning from others and sharing what I know to continually raise the bar for the organization.
 
