@@ -16,19 +16,22 @@ But one of the most important characteristics I bring is humility and passion fo
 ## I'm driven by a strong sense of purpose:
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
 
-## [Project : Generating Synthetic Data](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
-<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg" width="400" />
+## Now that you know who I am, let me show you what I can do:
 
-This project is a proof-of-concept to get familiar with generating synthetic data.  
+## Project : Generating Synthetic Data
+Wait .. I thought we were in the age of "big data"... why do we want to synthetically create more?
 <br> Synthetic data is useful to complement existing data for "edge" cases, amplifying minority data, or even a way to circumvent using sensitive & protected information.
 <br> In this example, I used the Synthetic Data Vault (SDV), which is a Python library designed to be a one-stop shop for creating tabular synthetic data.
 The SDV offers multiple machine learning models -- ranging from classical statistical methods (Copulas) to deep learning methods (GANs). 
 It can generate data for single tables, multiple connected tables or sequential tables.
-<br> Tools: Python - using Synthetic Data Vault
-<br> 
-<br> 
 
-## Now that you know who I am, let me show you what I can do:
+This project is a proof-of-concept to get familiar with generating synthetic data.  
+<br> Tools: Python - using Synthetic Data Vault
+<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg" width="400" />
+
+<br> [The details](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
+
+
 ## Project :  Predicting Jet Engine Failure
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/Survivalcurve.jpg" width="400" />
 
