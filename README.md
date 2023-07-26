@@ -2,7 +2,7 @@
 
 ## Welcome!  Let's begin with introductions: 
 I'm a data sleuth.  
-<br> To me, there is nothing more exciting to me than a new dataset. 
+<br> To me, there is nothing more exciting than cracking open a new dataset. 
 
 For years, I have rolled up my sleeves to help clinicians and managers make better decisions backed by sound data analysis. This required a deep - dive into their business, learning about their problems and concerns, and then being a professional sleuth to find and curate the data to underpin the analytics. 
 
