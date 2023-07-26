@@ -42,6 +42,7 @@ Is there a competitive advantage in how businesses manage their key assets?
 - Reducing costs - replacing equipment too early is wasteful, but, too late can lead to overtime costs to fix in off hours, and variation in planned throughput.
 <br> <b>In this analysis, I use simulated jet engine data from NASA to predict whether an engine will fail within 30 cycles.</b>
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/LSTM_LineGraph.jpg" width="400" />
+
 #### [Part 1: Tools: R, Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
 #### [Part 2: Tools: Python, Technique: Long Short Term Memory Neural Network LSTM](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/JetEngineLSTM/blob/main/JetEngineLSTM.html)
 <br> 
