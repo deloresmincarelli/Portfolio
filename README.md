@@ -27,6 +27,9 @@ It can generate data for single tables, multiple connected tables or sequential 
 
 This project is a proof-of-concept to get familiar with generating synthetic data.  
 <br> Tools: Python - using Synthetic Data Vault
+Examply where SDV does a good job |  Example where SDV did not do a good job
+:---------------------------------------------:|:-------------------------:
+![]([https://...Dark.png](https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg))  |  ![](https://...Ocean.png)
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg" width="400" />
 
 <br> [The details](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
