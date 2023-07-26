@@ -26,7 +26,7 @@ The SDV offers multiple machine learning models -- ranging from classical statis
 It can generate data for single tables, multiple connected tables or sequential tables.
 <br> This project is a proof-of-concept to get familiar with generating synthetic data.  
 <br> Tools: Python - using Synthetic Data Vault
-Examply where SDV does a good job |  Example where SDV did not do a good job
+Example where SDV does a good job |  Example where SDV did not do a good job
 :---------------------------------------------:|:-------------------------:
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg)  |  ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data2.jpg)
 
