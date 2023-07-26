@@ -41,7 +41,7 @@ Is there a competitive advantage in how businesses manage their key assets?
 - Inventory Management - avoid unplanned downtime by having parts when you need them, but, avoid having too much to keep costs down.
 - Reducing costs - replacing equipment too early is wasteful, but, too late can lead to overtime costs to fix in off hours, and variation in planned throughput.
 <br> In this analysis, I use simulated jet engine data from NASA to predict whether an engine will fail within the next 30 cycles; it classifies each engine with "Yes" it will fail in the next 30, or, "No" it won't fail in the next 30.  Presumably, with a lead time of 30 cycles, the business could procure & prep for another engine.
-<br> ***I assumed it was worse to predict "No" when it was actually "Yes", so I penalized these false negatives to force the model to err more on side of "Yes".***  
+<br> ***I assumed it was worse to predict "No" when it was actually "Yes", so I penalized these false negatives to force the model to err toward "Yes".***  
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/LSTM_LineGraph.jpg" width="400" />
 
 #### [Part 1: Tools: R, Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
