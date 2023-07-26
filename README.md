@@ -24,12 +24,11 @@ Wait .. I thought we were in the age of "big data"... why do we want to syntheti
 <br> In this example, I used the Synthetic Data Vault (SDV), which is a Python library designed to be a one-stop shop for creating tabular synthetic data.
 The SDV offers multiple machine learning models -- ranging from classical statistical methods (Copulas) to deep learning methods (GANs). 
 It can generate data for single tables, multiple connected tables or sequential tables.
-
 This project is a proof-of-concept to get familiar with generating synthetic data.  
 <br> Tools: Python - using Synthetic Data Vault
 Examply where SDV does a good job |  Example where SDV did not do a good job
 :---------------------------------------------:|:-------------------------:
-![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg)  |  ![](https://...Ocean.png)
+![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg)  |  ![]([https://...Ocean.png](https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data2.jpg))
 
 <br> [The details](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
 
