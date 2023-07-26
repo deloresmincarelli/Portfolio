@@ -30,7 +30,7 @@ Example where SDV does a good job |  Example where SDV did not do a good job
 :---------------------------------------------:|:-------------------------:
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data.jpg)  |  ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/synthetic_data2.jpg)
 
-<br> [The details](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
+<br> [The details: Generating Synthetic Data](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
 
 
 ## Project :  Predicting Jet Engine Failure
