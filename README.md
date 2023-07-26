@@ -20,7 +20,7 @@ But one of the most important characteristics I bring is humility and passion fo
 
 ## Project : Generating Synthetic Data
 Wait .. I thought we were in the age of "big data"... why do we want to synthetically create more?
-<br> Synthetic data is useful to complement existing data for "edge" cases, amplifying minority data, or even a way to circumvent using sensitive & protected information.
+<br> Synthetic data is useful to complement existing data for "edge" cases, amplifying minority data, or even a way to circumvent using sensitive & protected information (like medical patient information).  Further, getting "real" data can be expensive especially in cases where you need to ruin what you are studying so you can get data before failure.  
 <br> In this example, I used the Synthetic Data Vault (SDV), which is a Python library designed to be a one-stop shop for creating tabular synthetic data.
 The SDV offers multiple machine learning models -- ranging from classical statistical methods (Copulas) to deep learning methods (GANs). 
 It can generate data for single tables, multiple connected tables or sequential tables.
