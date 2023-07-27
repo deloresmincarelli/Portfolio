@@ -93,7 +93,7 @@ This case study uses data from one scheduling period, followed by 3 additional e
 
 Tools:  Python vs 3.6 and the PuLP package.
 
-<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/NurseOpt.jpg" width="500" />
+<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/NurseOpt.jpg" width="800" />
 
 ## Project : [Decision Making Under Uncertainty](https://github.com/deloresmincarelli/Portfolio/blob/main/DecisionUncertainty_Portfolio.pdf)
 
