@@ -102,7 +102,7 @@ Tools:  Python vs 3.6 and the PuLP package.
 <br> Use Case:  Motivated by an active hurricane season in 2020, I explore a framework to aide in a hospital evacuation decision.  This model includes random variables, a decision tree to quantify the cost of the decision, and simulation to explore the cost distribution.  
 <br> Tools:  R, Palisade suite of software for decision tree, simulation
 
-<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/HurricaneDecision.jpg" width="500" />
+<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/HurricaneDecision.jpg" width="800" />
 
 [pptx file with notes: select "view raw"](https://github.com/deloresmincarelli/Portfolio/blob/main/DecisionUncertainty_Portfolio.pptx)
 
