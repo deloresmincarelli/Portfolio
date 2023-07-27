@@ -32,7 +32,7 @@ Example where SDV did a good job |  Example where SDV did not do a good job
 
 <br> [The details: Generating Synthetic Data](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
 
-<br> 
+
 ## Project :  Predicting Jet Engine Failure
 Is there a competitive advantage in how businesses manage their key assets?
 <br> Predicting failures impacts the bottom line. Consider the following:
