@@ -32,7 +32,7 @@ Example where SDV did a good job |  Example where SDV did not do a good job
 
 <br> [The details: Generating Synthetic Data](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/SyntheticData/blob/main/syndata_jetengine_singletable.html)
 
-
+<br> 
 ## Project :  Predicting Jet Engine Failure
 Is there a competitive advantage in how businesses manage their key assets?
 <br> Predicting failures impacts the bottom line. Consider the following:
@@ -44,8 +44,8 @@ Is there a competitive advantage in how businesses manage their key assets?
 <br> ***I assumed it was worse to predict "No" when it was actually "Yes", so I penalized these false negatives to force the model to err toward "Yes".***  
 <img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/LSTM_LineGraph.jpg" width="800" />
 
-#### [Part 1: Tools: R, Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
-#### [Part 2: Tools: Python, Technique: Long Short Term Memory Neural Network LSTM](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/JetEngineLSTM/blob/main/JetEngineLSTM.html)
+#### [Part 1 details: Tools: R, Technique: Logistic Regression, extreme Gradient Boosting, Survival Analysis](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/Portfolio/blob/main/RUL_NASA_Engines.html)
+#### [Part 2 details: Tools: Python, Technique: Long Short Term Memory Neural Network LSTM](https://htmlpreview.github.io/?https://github.com/deloresmincarelli/JetEngineLSTM/blob/main/JetEngineLSTM.html)
 <br> 
 
 ## Project :  Predict Diabetes, Save results to database,  and use Natural Language to query the results
