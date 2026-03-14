@@ -8,14 +8,14 @@ For years, I have rolled up my sleeves to help clinicians and managers make bett
 
 I love using data-for-good. 
 
-I do my best when I'm involved end-to-end .. no need to throw a specification over the wall to me! I work side by side with customers in an iterative and layered approach so we have frequent checks and an evolution of the end result.
+I do my best when I'm involved end-to-end ..  I work side by side with customers in an iterative approach so we have frequent checks and an evolution of the end result.
 
 But one of the most important characteristics I bring is humility and passion for learning; I know how much I don't know. I'm **committed** to learning from others and sharing what I know to continually raise the bar for the organization.
 
 
 ## I'm driven by a strong sense of purpose:
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/PersonalMission.jpg)
-
+![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/NotebookLLM_Infographic_small.png)
 ## Now that you know who I am, let me show you what I can do:
 
 ## Project : Generating Synthetic Data
