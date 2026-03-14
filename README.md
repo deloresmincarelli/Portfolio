@@ -16,6 +16,12 @@ But one of the most important characteristics I bring is humility and passion fo
 ## I'm driven by a strong sense of purpose:
 ### Employ my gifts, solve with speed, share the wisdom, meet the need.
 ![](https://github.com/deloresmincarelli/Portfolio/blob/main/images/NotebookLLM_Infographic_small.png)
+
+**Employ my gifts**: use my God-given talents for others, 1Peter 4:10
+**Solve with speed**: find the fastest, simplest and best solutions to problems
+**Share the wisdom**: share learnings rather than making it about myself
+**Meet the need**: take initiative; humbly do what is required no matter what it is
+
 ## Now that you know who I am, let me show you what I can do:
 
 ## Project : Generating Synthetic Data
