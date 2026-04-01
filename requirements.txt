@@ -1,0 +1,9 @@
+pyodbc
+pandas
+sqlalchemy
+python-dotenv
+azure-identity
+ipykernel
+nbformat>=4.2.0
+matplotlib
+plotly
