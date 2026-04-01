@@ -7,3 +7,4 @@ ipykernel
 nbformat>=4.2.0
 matplotlib
 plotly
+datasets
