@@ -9,17 +9,12 @@ resume_id,section,line_text
 642,Work Experience,"Hive Networks, Inc."
 642,Work Experience,Sep '23 — Present
 642,Work Experience,Louisville
-642,Work Experience,"•LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against"
-642,Work Experience,"baseline LLM, allowing for open discussion on tradeoffs."
-642,Work Experience,•Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and
-642,Work Experience,examples for over 100 Key Performance Indicators.This allows our AI Chat Bot to answer customer questions within the context of the metric.
-642,Work Experience,•Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-
-642,Work Experience,specific population management data; easy to maintain but flexible enough so each customer can define their own
+642,Work Experience,"•LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against baseline LLM, allowing for open discussion on tradeoffs."
+642,Work Experience,•Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and examples for over 100 Key Performance Indicators.This allows our AI Chat Bot to answer customer questions within the context of the metric.
+642,Work Experience,•Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-specific population management data; easy to maintain but flexible enough so each customer can define their own
 642,Work Experience,population management metrics.Used by all of our customers.
-642,Work Experience,"•Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,"
-642,Work Experience,"regression testing, and troubleshooting critical issues for high-profile deliverables."
-642,Work Experience,"•Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into"
-642,Work Experience,"data quality issues, and implemented solutions that improved reporting accuracy."
+642,Work Experience,"•Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,regression testing, and troubleshooting critical issues for high-profile deliverables."
+642,Work Experience,"•Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into data quality issues, and implemented solutions that improved reporting accuracy."
 642,Work Experience,•Delivered insightful visualizations to support decision-making and client communication.
 642,Work Experience,Pricipal and Owner
 642,Work Experience,"ClearAsData, LLC"
@@ -30,17 +25,14 @@ resume_id,section,line_text
 642,Work Experience,Midmark Corporation
 642,Work Experience,Aug '22
 642,Work Experience,"Versailles, United States"
-642,Work Experience,"•Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine"
-642,Work Experience,learning.
-642,Work Experience,•Helped automate process to convert firmware dhall file to digital twin definition language to assess whether
-642,Work Experience,incoming telemetry data complies with design specifications.
+642,Work Experience,"•Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine learning."
+642,Work Experience,•Helped automate process to convert firmware dhall file to digital twin definition language to assess whether incoming telemetry data complies with design specifications.
 642,Work Experience,•Profiled incoming telemetry data in real time to detect issues and anomalies.
 642,Work Experience,Data Analyst
 642,Work Experience,Genetesis
 642,Work Experience,May '22
 642,Work Experience,Cincinnati
-642,Work Experience,•Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if
-642,Work Experience,publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant
+642,Work Experience,•Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant
 642,Work Experience,magnetocardiography variables to determine healthy and unhealthy ranges.
 642,Work Experience,•Evaluated certain patient physical characteristics and impact on prediction model accuracy.
 642,Work Experience,"•Automated calculation of Sensitivity, Specificity, Accuracy and Confidence Intervals for clinical study results."
@@ -48,14 +40,11 @@ resume_id,section,line_text
 642,Work Experience,TriHealth
 642,Work Experience,Apr '19
 642,Work Experience,Cincinnati
-642,Work Experience,•Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of
-642,Work Experience,staff (b) comparing operational efficiencies leading to shared learning between departments.
+642,Work Experience,•Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of staff (b) comparing operational efficiencies leading to shared learning between departments.
 642,Work Experience,"•Architected, programmed & delivered seminal work-flow to calculate utilization of anesthesiologists site wide."
-642,Work Experience,"•Provided data & dashboard to influence decision to use median procedure time vs ""one size fits all"" for high volume"
-642,Work Experience,procedures in cardiac surgery department.
-642,Work Experience,"•Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process"
-642,Work Experience,needed to ETL historical data and do daily refreshes of the data.
-642,Work Experience,"•Prototyped optimization of nurse shift preferences with daily demand,"
+642,Work Experience,"•Provided data & dashboard to influence decision to use median procedure time vs ""one size fits all"" for high volume procedures in cardiac surgery department."
+642,Work Experience,"•Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process needed to ETL historical data and do daily refreshes of the data."
+642,Work Experience,•Prototyped optimization of nurse shift preferences with daily demand
 642,Work Experience,Lead Business Intelligence Developer
 642,Work Experience,TriHealth
 642,Work Experience,Nov '15
