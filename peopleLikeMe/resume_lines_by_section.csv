@@ -1,4 +1,6 @@
 resume_id,section,line_text
+642,Unknown,Delores Mincarelli
+642,Unknown,5133166586 ◇ deloresmincarelli@yahoo.com ◇ LinkedIn
 642,Summary,Purpose-driven healthcare data scientist who partners closely with clinicians and managers to improve decision-making
 642,Summary,"through thoughtful analytics. Comfortable tackling routine, messy, and complex problems alike—finding scalable,"
 642,Summary,"repeatable solutions that strengthen systems over time. I bring strong critical thinking, clear communication, and a"
@@ -7,24 +9,23 @@ resume_id,section,line_text
 642,Work Experience,"Hive Networks, Inc."
 642,Work Experience,Sep '23 — Present
 642,Work Experience,Louisville
-642,Work Experience,"•LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against"
+642,Work Experience,"LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against"
 642,Work Experience,"baseline LLM, allowing for open discussion on tradeoffs."
-642,Work Experience,•Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and
+642,Work Experience,Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and
 642,Work Experience,examples for over 100 Key Performance Indicators.
 642,Work Experience,This allows our AI Chat Bot to answer customer questions within the context of the metric.
-642,Work Experience,•Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-
+642,Work Experience,Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-
 642,Work Experience,specific population management data; easy to maintain but flexible enough so each customer can define their own
 642,Work Experience,population management metrics.
 642,Work Experience,Used by all of our customers.
-642,Work Experience,"•Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,"
+642,Work Experience,"Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,"
 642,Work Experience,"regression testing, and troubleshooting critical issues for high-profile deliverables."
-642,Work Experience,"•Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into"
+642,Work Experience,"Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into"
 642,Work Experience,"data quality issues, and implemented solutions that improved reporting accuracy."
-642,Work Experience,•Delivered insightful visualizations to support decision-making and client communication.
+642,Work Experience,Delivered insightful visualizations to support decision-making and client communication.
 642,Work Experience,Pricipal and Owner
 642,Work Experience,"ClearAsData, LLC"
 642,Work Experience,Jan '23 — Present
-642,Work Experience,•Work with non-profit mission driven companies to help them understand their data and make better business decisions.
 642,Work Experience,Louisville
 642,Work Experience,Contract for data science services at Midmark Corporation.
 642,Work Experience,Data Scientist

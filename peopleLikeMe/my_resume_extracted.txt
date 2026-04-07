@@ -1,3 +1,5 @@
+Delores Mincarelli
+5133166586 ◇ deloresmincarelli@yahoo.com ◇ LinkedIn
 SUMMARY
 Purpose-driven healthcare data scientist who partners closely with clinicians and managers to improve decision-making
 through thoughtful analytics. Comfortable tackling routine, messy, and complex problems alike—finding scalable,
@@ -11,12 +13,10 @@ Louisville
 •LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against
 baseline LLM, allowing for open discussion on tradeoffs.
 •Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and
-examples for over 100 Key Performance Indicators.
-This allows our AI Chat Bot to answer customer questions within the context of the metric.
+examples for over 100 Key Performance Indicators.This allows our AI Chat Bot to answer customer questions within the context of the metric.
 •Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-
 specific population management data; easy to maintain but flexible enough so each customer can define their own
-population management metrics.
-Used by all of our customers.
+population management metrics.Used by all of our customers.
 •Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,
 regression testing, and troubleshooting critical issues for high-profile deliverables.
 •Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into
@@ -25,9 +25,8 @@ data quality issues, and implemented solutions that improved reporting accuracy.
 Pricipal and Owner
 ClearAsData, LLC
 Jan '23 — Present
-•Work with non-profit mission driven companies to help them understand their data and make better business decisions.
 Louisville
-Contract for data science services at Midmark Corporation.
+•Pro-bono data analysis services for mission-driven non profit organizations
 Data Scientist
 Midmark Corporation
 Aug '22
