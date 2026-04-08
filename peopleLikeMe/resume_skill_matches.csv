@@ -1,0 +1,91 @@
+resume_id,bullet_id,bullet_text,skill,score
+642,1,"LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against baseline LLM, allowing for open discussion on tradeoffs.",Monitoring,0.34006601572036743
+642,1,"LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against baseline LLM, allowing for open discussion on tradeoffs.",Systems Evaluation,0.33988362550735474
+642,1,"LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against baseline LLM, allowing for open discussion on tradeoffs.",Quality Control Analysis,0.2868706285953522
+642,1,"LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against baseline LLM, allowing for open discussion on tradeoffs.",Operations Monitoring,0.2720155119895935
+642,1,"LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against baseline LLM, allowing for open discussion on tradeoffs.",Equipment Selection,0.2605941593647003
+642,2,Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and examples for over 100 Key Performance Indicators.This allows our AI Chat Bot to answer customer questions within the context of the metric.,Operations Monitoring,0.37613269686698914
+642,2,Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and examples for over 100 Key Performance Indicators.This allows our AI Chat Bot to answer customer questions within the context of the metric.,Programming,0.34633398056030273
+642,2,Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and examples for over 100 Key Performance Indicators.This allows our AI Chat Bot to answer customer questions within the context of the metric.,Operations Analysis,0.29854726791381836
+642,2,Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and examples for over 100 Key Performance Indicators.This allows our AI Chat Bot to answer customer questions within the context of the metric.,Monitoring,0.2873053252696991
+642,2,Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and examples for over 100 Key Performance Indicators.This allows our AI Chat Bot to answer customer questions within the context of the metric.,Systems Evaluation,0.28158605098724365
+642,3,Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-specific population management data; easy to maintain but flexible enough so each customer can define their own,Technology Design,0.26102057099342346
+642,3,Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-specific population management data; easy to maintain but flexible enough so each customer can define their own,Complex Problem Solving,0.24547463655471802
+642,3,Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-specific population management data; easy to maintain but flexible enough so each customer can define their own,Time Management,0.23245516419410706
+642,3,Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-specific population management data; easy to maintain but flexible enough so each customer can define their own,Monitoring,0.2246587574481964
+642,3,Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-specific population management data; easy to maintain but flexible enough so each customer can define their own,Operations Monitoring,0.21389789879322052
+642,4,"Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,regression testing, and troubleshooting critical issues for high-profile deliverables.",Coordination,0.33865442872047424
+642,4,"Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,regression testing, and troubleshooting critical issues for high-profile deliverables.",Management of Personnel Resources,0.28042834997177124
+642,4,"Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,regression testing, and troubleshooting critical issues for high-profile deliverables.",Operations Monitoring,0.27231764793395996
+642,4,"Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,regression testing, and troubleshooting critical issues for high-profile deliverables.",Troubleshooting,0.2621968388557434
+642,4,"Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,regression testing, and troubleshooting critical issues for high-profile deliverables.",Instructing,0.26050782203674316
+642,5,"Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into data quality issues, and implemented solutions that improved reporting accuracy.",Quality Control Analysis,0.37409114837646484
+642,5,"Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into data quality issues, and implemented solutions that improved reporting accuracy.",Troubleshooting,0.22048044204711914
+642,5,"Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into data quality issues, and implemented solutions that improved reporting accuracy.",Systems Evaluation,0.22008460760116577
+642,5,"Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into data quality issues, and implemented solutions that improved reporting accuracy.",Monitoring,0.2184276580810547
+642,5,"Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into data quality issues, and implemented solutions that improved reporting accuracy.",Repairing,0.20686307549476624
+642,6,Delivered insightful visualizations to support decision-making and client communication.,Technology Design,0.31125468015670776
+642,6,Delivered insightful visualizations to support decision-making and client communication.,Judgment and Decision Making,0.30766037106513977
+642,6,Delivered insightful visualizations to support decision-making and client communication.,Systems Evaluation,0.3033908009529114
+642,6,Delivered insightful visualizations to support decision-making and client communication.,Operations Monitoring,0.2931554615497589
+642,6,Delivered insightful visualizations to support decision-making and client communication.,Monitoring,0.27618247270584106
+642,7,Pro-bono data analysis services for mission-driven non profit organizations,Management of Financial Resources,0.26874762773513794
+642,7,Pro-bono data analysis services for mission-driven non profit organizations,Management of Personnel Resources,0.24471262097358704
+642,7,Pro-bono data analysis services for mission-driven non profit organizations,Management of Material Resources,0.2319691926240921
+642,7,Pro-bono data analysis services for mission-driven non profit organizations,Systems Analysis,0.22905561327934265
+642,7,Pro-bono data analysis services for mission-driven non profit organizations,Systems Evaluation,0.21791023015975952
+642,8,"Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine learning.",Operations Monitoring,0.3227643668651581
+642,8,"Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine learning.",Equipment Maintenance,0.26422494649887085
+642,8,"Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine learning.",Active Learning,0.255271852016449
+642,8,"Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine learning.",Operations Analysis,0.2515871524810791
+642,8,"Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine learning.",Equipment Selection,0.230661541223526
+642,9,Helped automate process to convert firmware dhall file to digital twin definition language to assess whether incoming telemetry data complies with design specifications.,Operations Monitoring,0.3367691934108734
+642,9,Helped automate process to convert firmware dhall file to digital twin definition language to assess whether incoming telemetry data complies with design specifications.,Technology Design,0.29221758246421814
+642,9,Helped automate process to convert firmware dhall file to digital twin definition language to assess whether incoming telemetry data complies with design specifications.,Systems Evaluation,0.2822689116001129
+642,9,Helped automate process to convert firmware dhall file to digital twin definition language to assess whether incoming telemetry data complies with design specifications.,Operations Analysis,0.26437947154045105
+642,9,Helped automate process to convert firmware dhall file to digital twin definition language to assess whether incoming telemetry data complies with design specifications.,Equipment Maintenance,0.2296355962753296
+642,10,Profiled incoming telemetry data in real time to detect issues and anomalies.,Operations Monitoring,0.5177679061889648
+642,10,Profiled incoming telemetry data in real time to detect issues and anomalies.,Monitoring,0.4704437851905823
+642,10,Profiled incoming telemetry data in real time to detect issues and anomalies.,Equipment Maintenance,0.2935044765472412
+642,10,Profiled incoming telemetry data in real time to detect issues and anomalies.,Systems Analysis,0.2549586892127991
+642,10,Profiled incoming telemetry data in real time to detect issues and anomalies.,Active Listening,0.23160940408706665
+642,11,Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant,Science,0.11957985907793045
+642,11,Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant,Systems Evaluation,0.10710740089416504
+642,11,Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant,Technology Design,0.09466902911663055
+642,11,Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant,Systems Analysis,0.09124212712049484
+642,11,Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant,Quality Control Analysis,0.08992922306060791
+642,12,Evaluated certain patient physical characteristics and impact on prediction model accuracy.,Systems Evaluation,0.2642468810081482
+642,12,Evaluated certain patient physical characteristics and impact on prediction model accuracy.,Equipment Selection,0.23781970143318176
+642,12,Evaluated certain patient physical characteristics and impact on prediction model accuracy.,Active Learning,0.18281282484531403
+642,12,Evaluated certain patient physical characteristics and impact on prediction model accuracy.,Systems Analysis,0.14829064905643463
+642,12,Evaluated certain patient physical characteristics and impact on prediction model accuracy.,Technology Design,0.13465003669261932
+642,13,"Automated calculation of Sensitivity, Specificity, Accuracy and Confidence Intervals for clinical study results.",Systems Evaluation,0.18347755074501038
+642,13,"Automated calculation of Sensitivity, Specificity, Accuracy and Confidence Intervals for clinical study results.",Quality Control Analysis,0.15873675048351288
+642,13,"Automated calculation of Sensitivity, Specificity, Accuracy and Confidence Intervals for clinical study results.",Monitoring,0.15236251056194305
+642,13,"Automated calculation of Sensitivity, Specificity, Accuracy and Confidence Intervals for clinical study results.",Social Perceptiveness,0.11658845841884613
+642,13,"Automated calculation of Sensitivity, Specificity, Accuracy and Confidence Intervals for clinical study results.",Active Learning,0.11137255281209946
+642,14,Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of staff (b) comparing operational efficiencies leading to shared learning between departments.,Operations Analysis,0.23825767636299133
+642,14,Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of staff (b) comparing operational efficiencies leading to shared learning between departments.,Management of Personnel Resources,0.22031600773334503
+642,14,Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of staff (b) comparing operational efficiencies leading to shared learning between departments.,Systems Evaluation,0.20568455755710602
+642,14,Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of staff (b) comparing operational efficiencies leading to shared learning between departments.,Equipment Selection,0.18886303901672363
+642,14,Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of staff (b) comparing operational efficiencies leading to shared learning between departments.,Equipment Maintenance,0.17589667439460754
+642,15,"Architected, programmed & delivered seminal work-flow to calculate utilization of anesthesiologists site wide.",Operations Analysis,0.31982892751693726
+642,15,"Architected, programmed & delivered seminal work-flow to calculate utilization of anesthesiologists site wide.",Systems Evaluation,0.2874024212360382
+642,15,"Architected, programmed & delivered seminal work-flow to calculate utilization of anesthesiologists site wide.",Technology Design,0.28681689500808716
+642,15,"Architected, programmed & delivered seminal work-flow to calculate utilization of anesthesiologists site wide.",Management of Personnel Resources,0.27278223633766174
+642,15,"Architected, programmed & delivered seminal work-flow to calculate utilization of anesthesiologists site wide.",Instructing,0.26129212975502014
+642,16,"Provided data & dashboard to influence decision to use median procedure time vs ""one size fits all"" for high volume procedures in cardiac surgery department.",Equipment Selection,0.29382699728012085
+642,16,"Provided data & dashboard to influence decision to use median procedure time vs ""one size fits all"" for high volume procedures in cardiac surgery department.",Operations Analysis,0.22965672612190247
+642,16,"Provided data & dashboard to influence decision to use median procedure time vs ""one size fits all"" for high volume procedures in cardiac surgery department.",Time Management,0.21880827844142914
+642,16,"Provided data & dashboard to influence decision to use median procedure time vs ""one size fits all"" for high volume procedures in cardiac surgery department.",Quality Control Analysis,0.20761346817016602
+642,16,"Provided data & dashboard to influence decision to use median procedure time vs ""one size fits all"" for high volume procedures in cardiac surgery department.",Operations Monitoring,0.20653942227363586
+642,17,"Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process needed to ETL historical data and do daily refreshes of the data.",Time Management,0.3744408190250397
+642,17,"Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process needed to ETL historical data and do daily refreshes of the data.",Operations Monitoring,0.31549766659736633
+642,17,"Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process needed to ETL historical data and do daily refreshes of the data.",Operations Analysis,0.30534374713897705
+642,17,"Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process needed to ETL historical data and do daily refreshes of the data.",Programming,0.2962450385093689
+642,17,"Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process needed to ETL historical data and do daily refreshes of the data.",Management of Personnel Resources,0.2900303602218628
+642,18,Prototyped optimization of nurse shift preferences with daily demand,Time Management,0.28426599502563477
+642,18,Prototyped optimization of nurse shift preferences with daily demand,Equipment Selection,0.25565269589424133
+642,18,Prototyped optimization of nurse shift preferences with daily demand,Equipment Maintenance,0.18131040036678314
+642,18,Prototyped optimization of nurse shift preferences with daily demand,Active Learning,0.17889493703842163
+642,18,Prototyped optimization of nurse shift preferences with daily demand,Technology Design,0.17502698302268982
