@@ -1,0 +1,247 @@
+ResumeID,Section,Title,ItemID,Text,MonthsDuration,RecencyMonthsAgo
+1,Summary,Analyst,1,"Purpose-driven healthcare data scientist who partners closely with clinicians and managers to improve decision-making
+through thoughtful analytics. Comfortable tackling routine, messy, and complex problems alike—finding scalable,
+repeatable solutions that strengthen systems over time. I bring strong critical thinking, clear communication, and a
+learning mindset to every engagement, using AI as a tool rather than a substitute for judgment.",,
+1,Experience,Analyst,2,"LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against baseline LLM, allowing for open discussion on tradeoffs.",31.0,0.0
+1,Experience,Analyst,3,Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and examples for over 100 Key Performance Indicators. This allows our AI Chat Bot to answer customer questions within the context of the metric.,31.0,0.0
+1,Experience,Analyst,4,Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer- specific population management data; easy to maintain but flexible enough so each customer can define their own population management metrics. Used by all of our customers,31.0,0.0
+1,Experience,Analyst,5,"Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination , regression testing, and troubleshooting critical issues for high-profile deliverables.",31.0,0.0
+1,Experience,Analyst,6,"Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into data quality issues, and implemented solutions that improved reporting accuracy. Delivered insightful visualizations to support decision-making and client communication.",31.0,0.0
+1,Experience,Owner,7,Pro-bono data analysis for mission driven non profits. ,31.0,0.0
+1,Experience,Data scientist,8,"Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine
+learning.",12.0,36.0
+1,Experience,Data scientist,9,"Helped automate process to convert firmware dhall file to digital twin definition language to assess whether
+incoming telemetry data complies with design specifications.",12.0,36.0
+1,Experience,Data scientist,10,Profiled incoming telemetry data in real time to detect issues and anomalies.,12.0,36.0
+1,Experience,Analyst Intern,11,"Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if
+publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant
+magnetocardiography variables to determine healthy and unhealthy ranges.",4.0,54.0
+1,Experience,Analyst Intern,12,Evaluated certain patient physical characteristics and impact on prediction model accuracy.,4.0,54.0
+1,Experience,Analyst Intern,13,"Automated calculation of Sensitivity, Specificity, Accuracy and Confidence Intervals for clinical study results.",4.0,54.0
+1,Experience,Data Scientist,14,"Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of
+staff (b) comparing operational efficiencies leading to shared learning between departments",36.0,58.0
+1,Experience,Data Scientist,15,"Architected, programmed & delivered seminal work-flow to calculate utilization of anesthesiologists site wide.",36.0,58.0
+1,Experience,Data Scientist,16,"Provided data & dashboard to influence decision to use median procedure time vs ""one size fits all"" for high volume
+procedures in cardiac surgery department.",36.0,58.0
+1,Experience,Data Scientist,17,"Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process
+needed to ETL historical data and do daily refreshes of the data.",36.0,58.0
+1,Experience,Data Scientist,18,Prototyped optimization of nurse shift preferences with daily demand,36.0,58.0
+1,Education,,19,MS Business Analytics,,36.0
+1,Education,,20,BS Chemical Engineering,,480.0
+1,Skills,,21,Critical Thinking,,
+1,Skills,,22,Python,,
+1,Skills,,23,AI,,
+1,Skills,,24,Problem Solving,,
+1,Skills,,25,Analysis,,
+1,Skills,,26,PowerBI,,
+1,Skills,,27,Tableau,,
+2,Summary,BI Analyst,1,"Retail analytics professional who turns store, e-commerce, and loyalty data into clear merchandising and inventory decisions. Comfortable owning dashboards end-to-end from requirements through production refresh.",,
+2,Experience,Senior BI Analyst,2,Built executive sales dashboards in Power BI; standardized KPI definitions across regions and cut ad-hoc report load for finance partners.,36.0,0.0
+2,Experience,Reporting Analyst,3,Automated weekly inventory exception reports in SQL; partnered with supply chain to reduce stockouts on top SKUs.,24.0,36.0
+2,Education,,4,BS Business Analytics,,36.0
+2,Education,,5,AS Business Administration,,84.0
+2,Skills,,6,SQL,,
+2,Skills,,7,Power BI,,
+2,Skills,,8,DAX,,
+2,Skills,,9,Excel,,
+2,Skills,,10,Retail operations,,
+2,Skills,,11,Stakeholder communication,,
+3,Summary,Operations Analytics Lead,1,"Supply chain and logistics analyst focused on network design, SLA adherence, and cost-to-serve. Experienced translating messy operational data into decisions plant managers actually use.",,
+3,Experience,Lead Operations Analyst,2,Modeled lane volumes and carrier performance; recommended routing changes that reduced expedited freight spend without hurting on-time delivery.,42.0,0.0
+3,Experience,Logistics Analyst,3,Maintained Tableau suite for warehouse productivity; led root-cause sessions when throughput dipped.,30.0,42.0
+3,Education,,4,MS Industrial Engineering,,36.0
+3,Education,,5,BS Mathematics,,84.0
+3,Skills,,6,Tableau,,
+3,Skills,,7,SQL,,
+3,Skills,,8,Python,,
+3,Skills,,9,Optimization concepts,,
+3,Skills,,10,Process mapping,,
+3,Skills,,11,Presentation skills,,
+4,Summary,Healthcare Data Analyst,1,Early-career analyst supporting quality and population health teams. Eager to grow in regulated environments with strong documentation and validation habits.,,
+4,Experience,Healthcare Data Analyst,2,Pulled HEDIS-aligned cohorts in SQL; assisted clinical leaders with numerator/denominator logic and audit-ready documentation.,18.0,0.0
+4,Experience,Analytics Intern,3,Visualized readmission trends in Tableau; supported monthly quality committee packets.,4.0,18.0
+4,Education,,4,BS Public Health,,36.0
+4,Education,,5,SQL for Data Analysis certificate,,84.0
+4,Skills,,6,SQL,,
+4,Skills,,7,Tableau,,
+4,Skills,,8,HIPAA awareness,,
+4,Skills,,9,Quality metrics,,
+4,Skills,,10,Excel,,
+4,Skills,,11,Technical writing,,
+5,Summary,Product Analyst,1,"B2B SaaS product analyst linking funnel behavior, retention, and pricing experiments to roadmap bets. Partners closely with PMs and data engineers on event taxonomy and trustworthy reporting.",,
+5,Experience,Product Analyst,2,"Owned self-serve activation funnel: defined events, built cohort dashboards, and summarized experiment readouts for leadership.",28.0,0.0
+5,Experience,Marketing Analyst,3,Attributed pipeline to campaigns using multi-touch rules; advised demand gen on spend reallocation.,20.0,30.0
+5,Education,,4,BA Economics,,36.0
+5,Education,,5,Google Analytics certification,,84.0
+5,Skills,,6,SQL,,
+5,Skills,,7,Amplitude,,
+5,Skills,,8,Experiment design,,
+5,Skills,,9,Statistics,,
+5,Skills,,10,Looker,,
+5,Skills,,11,Storytelling with data,,
+6,Summary,Machine Learning Engineer,1,"ML engineer shipping ranking and recommendation models in production. Cares about monitoring, feature stores, and clean handoffs to platform teams.",,
+6,Experience,ML Engineer,2,Deployed gradient-boosted ranking model behind job recommendations; added drift checks and shadow-mode evaluation before full rollout.,32.0,0.0
+6,Experience,Data Scientist,3,Prototyped embeddings for similar-item search; handed off training pipelines to Spark jobs owned by data platform.,24.0,32.0
+6,Education,,4,MS Computer Science,,36.0
+6,Education,,5,BS Software Engineering,,84.0
+6,Skills,,6,Python,,
+6,Skills,,7,PyTorch,,
+6,Skills,,8,Spark,,
+6,Skills,,9,Docker,,
+6,Skills,,10,MLflow,,
+6,Skills,,11,AWS,,
+7,Summary,Senior Data Scientist,1,Biotech-focused data scientist with depth in survival analysis and clinical trial reporting. Comfortable working with statisticians and translating methods for cross-functional partners.,,
+7,Experience,Senior Data Scientist,2,Supported adaptive trial readouts; implemented reproducible R workflows for interim analyses under biostat review.,48.0,0.0
+7,Experience,Data Scientist,3,Built patient journey models from claims and EHR extracts; documented assumptions for regulatory discussions.,36.0,48.0
+7,Education,,4,PhD Statistics,,36.0
+7,Education,,5,BS Biology,,84.0
+7,Skills,,6,R,,
+7,Skills,,7,Python,,
+7,Skills,,8,Survival analysis,,
+7,Skills,,9,GCP,,
+7,Skills,,10,Clinical data,,
+7,Skills,,11,Regulatory documentation,,
+8,Summary,Data Scientist,1,"NLP-focused data scientist improving search and support deflection. Enjoys labeling strategies, evaluation harnesses, and pragmatic fine-tuning over hype.",,
+8,Experience,Data Scientist,2,Fine-tuned encoder models for enterprise search; built offline precision/recall suite and A/B readout templates.,30.0,0.0
+8,Experience,Applied Scientist,3,Implemented ticket routing from subject and body text; reduced mis-triage rate versus keyword baseline.,18.0,30.0
+8,Education,,4,MS Data Science,,36.0
+8,Education,,5,BA Linguistics,,84.0
+8,Skills,,6,Python,,
+8,Skills,,7,Hugging Face,,
+8,Skills,,8,Information retrieval,,
+8,Skills,,9,AWS,,
+8,Skills,,10,LLM evaluation,,
+8,Skills,,11,Technical writing,,
+9,Summary,Data Scientist,1,Forecasting and time-series specialist for revenue and capacity planning. Balances statistical rigor with tools planners can maintain after handoff.,,
+9,Experience,Data Scientist,2,Replaced spreadsheet forecasts with hierarchical time-series models; cut WAPE on short-horizon SKU forecasts.,36.0,0.0
+9,Experience,Quantitative Analyst,3,Built Monte Carlo scenarios for staffing under demand uncertainty; presented ranges to operations leadership.,18.0,36.0
+9,Education,,4,MS Applied Mathematics,,36.0
+9,Education,,5,BS Finance,,84.0
+9,Skills,,6,Python,,
+9,Skills,,7,Prophet,,
+9,Skills,,8,ARIMA,,
+9,Skills,,9,Excel,,
+9,Skills,,10,Forecast accuracy metrics,,
+9,Skills,,11,Cross-functional facilitation,,
+10,Summary,Policy Data Analyst,1,"Public-sector analyst supporting grants and program evaluation. Values transparent methods, clear caveats, and accessible visuals for non-technical stakeholders.",,
+10,Experience,Policy Data Analyst,2,Geocoded service access metrics and published open-data summaries for community boards.,22.0,0.0
+10,Experience,Research Assistant,3,Cleaned survey microdata in R; produced reproducible tables for policy briefs.,12.0,24.0
+10,Education,,4,MPA,,36.0
+10,Education,,5,BA Political Science,,84.0
+10,Skills,,6,R,,
+10,Skills,,7,SQL,,
+10,Skills,,8,GIS basics,,
+10,Skills,,9,Survey methods,,
+10,Skills,,10,Technical writing,,
+10,Skills,,11,Public speaking,,
+11,Summary,Talent Acquisition Partner,1,"Full-cycle recruiter for engineering and product roles at a growth-stage company. Focuses on inclusive sourcing, structured interviews, and hiring-manager partnership.",,
+11,Experience,Talent Acquisition Partner,2,Owned reqs from intake to offer; reduced time-to-fill for senior engineers by tightening scorecards and debrief discipline.,40.0,0.0
+11,Experience,Technical Recruiter,3,Built Boolean and GitHub sourcing plays; partnered with hiring managers on realistic leveling narratives.,24.0,40.0
+11,Education,,4,BA Human Resources,,36.0
+11,Education,,5,SHRM-CP,,84.0
+11,Skills,,6,Greenhouse,,
+11,Skills,,7,LinkedIn Recruiter,,
+11,Skills,,8,Structured interviewing,,
+11,Skills,,9,Offer negotiation,,
+11,Skills,,10,Compliance basics,,
+11,Skills,,11,Stakeholder communication,,
+12,Summary,HR Business Partner,1,"Senior HRBP supporting manufacturing and distribution leaders. Handles performance cases, change management, and union-aware communication where applicable.",,
+12,Experience,Senior HR Business Partner,2,Led investigations and corrective action with consistent documentation; coached managers on difficult conversations.,54.0,0.0
+12,Experience,HR Generalist,3,Ran engagement surveys and action planning with plant leadership; supported reorganizations.,36.0,54.0
+12,Education,,4,MBA,,36.0
+12,Education,,5,BS Psychology,,84.0
+12,Skills,,6,Employee relations,,
+12,Skills,,7,Investigations,,
+12,Skills,,8,Workday,,
+12,Skills,,9,Labor relations awareness,,
+12,Skills,,10,Coaching,,
+12,Skills,,11,Policy interpretation,,
+13,Summary,Compensation Analyst,1,"Compensation analyst who loves survey matching, grade structures, and explaining pay philosophy without jargon.",,
+13,Experience,Compensation Analyst,2,Maintained Radford and Mercer benchmarks; modeled merit budgets and pay equity scenarios for HR leadership.,34.0,0.0
+13,Experience,HR Analyst,3,Automated headcount and turnover reporting; supported annual merit cycle in Workday.,20.0,34.0
+13,Education,,4,BS Finance,,36.0
+13,Education,,5,WorldatWork CCP (in progress),,84.0
+13,Skills,,6,Excel,,
+13,Skills,,7,Workday,,
+13,Skills,,8,Survey job matching,,
+13,Skills,,9,Pay structures,,
+13,Skills,,10,Storytelling with numbers,,
+13,Skills,,11,Attention to detail,,
+14,Summary,FP&A Manager,1,"FP&A manager owning forecasting, annual planning, and board-ready variance narratives for a mid-market software company.",,
+14,Experience,FP&A Manager,2,Built rolling revenue forecast by segment; partnered with sales ops on pipeline-to-book assumptions and capacity hiring plan.,44.0,0.0
+14,Experience,Senior Financial Analyst,3,Automated month-end flux analysis templates; shortened close commentary cycle for corporate accounting.,30.0,44.0
+14,Education,,4,MBA Finance,,36.0
+14,Education,,5,BS Accounting,,84.0
+14,Skills,,6,Excel,,
+14,Skills,,7,Adaptive Insights,,
+14,Skills,,8,GAAP basics,,
+14,Skills,,9,Forecasting,,
+14,Skills,,10,Board decks,,
+14,Skills,,11,Cross-functional leadership,,
+15,Summary,Corporate Accountant,1,"Hands-on accountant comfortable with consolidations, intercompany, and tight close calendars. Enjoys cleaning reconciliations others avoid.",,
+15,Experience,Corporate Accountant,2,Owned prepaid and fixed asset schedules; improved SOX control evidence for balance sheet reconciliations.,36.0,0.0
+15,Experience,Staff Accountant,3,Prepared journal entries and flux analyses for multi-entity close; supported external audit requests.,28.0,36.0
+15,Education,,4,BS Accounting,,36.0
+15,Education,,5,CPA,,84.0
+15,Skills,,6,NetSuite,,
+15,Skills,,7,Excel,,
+15,Skills,,8,Month-end close,,
+15,Skills,,9,Reconciliations,,
+15,Skills,,10,SOX,,
+15,Skills,,11,Audit support,,
+16,Summary,Internal Auditor,1,"Early-career internal auditor testing ITGCs and business process controls. Building skills in sampling, workpaper quality, and clear issue write-ups.",,
+16,Experience,Internal Auditor,2,Executed walkthroughs and tests of controls for procure-to-pay; tracked remediation for open findings.,20.0,0.0
+16,Experience,Audit Associate,3,Supported external financial statement audits for private clients; prepared tie-outs and confirmation tracking.,14.0,20.0
+16,Education,,4,BS Accounting,,36.0
+16,Education,,5,Data Analytics minor,,84.0
+16,Skills,,6,Excel,,
+16,Skills,,7,ACL,,
+16,Skills,,8,Risk assessment,,
+16,Skills,,9,Documentation,,
+16,Skills,,10,Professional skepticism,,
+16,Skills,,11,Time management,,
+17,Summary,Structural Engineer,1,"Licensed structural engineer designing commercial building systems. Comfortable coordinating with architects, MEP, and contractors in fast-paced projects.",,
+17,Experience,Structural Engineer,2,Sized steel and concrete members for mid-rise office retrofits; performed lateral system checks per ASCE 7.,42.0,0.0
+17,Experience,EIT,3,Produced calculation packages and Revit coordination notes; assisted PE with shop drawing reviews.,30.0,42.0
+17,Education,,4,MS Structural Engineering,,36.0
+17,Education,,5,BS Civil Engineering,,84.0
+17,Education,,6,PE license,,132.0
+17,Skills,,7,Revit,,
+17,Skills,,8,RAM Structural,,
+17,Skills,,9,ASCE codes,,
+17,Skills,,10,AutoCAD,,
+17,Skills,,11,Construction administration,,
+17,Skills,,12,Technical writing,,
+18,Summary,Manufacturing Engineer,1,"Senior manufacturing engineer focused on assembly line balance, PFMEA, and scrap reduction in automotive components.",,
+18,Experience,Senior Manufacturing Engineer,2,Led line redesign for EV subassembly; reduced cycle time 12% through workstation layout and poka-yoke fixtures.,48.0,0.0
+18,Experience,Process Engineer,3,Owned CAPA investigations for dimensional drift; partnered with quality on SPC charting and control limits.,36.0,48.0
+18,Education,,4,BS Mechanical Engineering,,36.0
+18,Education,,5,Six Sigma Black Belt,,84.0
+18,Skills,,6,SolidWorks,,
+18,Skills,,7,PFMEA,,
+18,Skills,,8,SPC,,
+18,Skills,,9,Lean,,
+18,Skills,,10,GD&T,,
+18,Skills,,11,Project management,,
+19,Summary,Performance Marketing Manager,1,"Paid acquisition lead for DTC brand. Obsessed with incrementality tests, creative iteration cadence, and LTV-aware spend targets.",,
+19,Experience,Performance Marketing Manager,2,Scaled Meta and Google spend while holding MER targets; introduced structured geo holdout tests for major campaigns.,32.0,0.0
+19,Experience,Growth Marketing Specialist,3,Built reporting in Google Sheets and Supermetrics; identified underperforming audiences and refreshed creative briefs.,22.0,32.0
+19,Education,,4,BA Marketing,,36.0
+19,Education,,5,Meta Blueprint certified,,84.0
+19,Skills,,6,Google Ads,,
+19,Skills,,7,Meta Ads,,
+19,Skills,,8,GA4,,
+19,Skills,,9,Creative testing,,
+19,Skills,,10,Budget pacing,,
+19,Skills,,11,Storytelling,,
+20,Summary,Content Marketing Coordinator,1,"Early-career marketer producing blog, email, and webinar content for B2B SaaS. Learns fast in cross-functional pods with product marketing and design.",,
+20,Experience,Content Marketing Coordinator,2,Managed editorial calendar; repurposed webinar clips into LinkedIn carousels that lifted demo requests.,16.0,0.0
+20,Experience,Marketing Intern,3,Drafted customer stories and newsletter copy; tracked basic engagement metrics in HubSpot.,4.0,16.0
+20,Education,,4,BA Communications,,36.0
+20,Skills,,5,HubSpot,,
+20,Skills,,6,Copywriting,,
+20,Skills,,7,Canva,,
+20,Skills,,8,Email marketing,,
+20,Skills,,9,SEO basics,,
+20,Skills,,10,Project coordination,,

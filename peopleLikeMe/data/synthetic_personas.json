@@ -1,0 +1,268 @@
+[
+  {
+    "resume_id": 2,
+    "primary_domain": "data_analytics",
+    "role_family": "bi_reporting",
+    "seniority_band": "mid",
+    "summary_title": "BI Analyst",
+    "summary_text": "Retail analytics professional who turns store, e-commerce, and loyalty data into clear merchandising and inventory decisions. Comfortable owning dashboards end-to-end from requirements through production refresh.",
+    "experience": [
+      {"title": "Senior BI Analyst", "text": "Built executive sales dashboards in Power BI; standardized KPI definitions across regions and cut ad-hoc report load for finance partners.", "months": 36, "recency": 0},
+      {"title": "Reporting Analyst", "text": "Automated weekly inventory exception reports in SQL; partnered with supply chain to reduce stockouts on top SKUs.", "months": 24, "recency": 36}
+    ],
+    "education": ["BS Business Analytics", "AS Business Administration"],
+    "skills": ["SQL", "Power BI", "DAX", "Excel", "Retail operations", "Stakeholder communication"]
+  },
+  {
+    "resume_id": 3,
+    "primary_domain": "data_analytics",
+    "role_family": "operations_analytics",
+    "seniority_band": "senior",
+    "summary_title": "Operations Analytics Lead",
+    "summary_text": "Supply chain and logistics analyst focused on network design, SLA adherence, and cost-to-serve. Experienced translating messy operational data into decisions plant managers actually use.",
+    "experience": [
+      {"title": "Lead Operations Analyst", "text": "Modeled lane volumes and carrier performance; recommended routing changes that reduced expedited freight spend without hurting on-time delivery.", "months": 42, "recency": 0},
+      {"title": "Logistics Analyst", "text": "Maintained Tableau suite for warehouse productivity; led root-cause sessions when throughput dipped.", "months": 30, "recency": 42}
+    ],
+    "education": ["MS Industrial Engineering", "BS Mathematics"],
+    "skills": ["Tableau", "SQL", "Python", "Optimization concepts", "Process mapping", "Presentation skills"]
+  },
+  {
+    "resume_id": 4,
+    "primary_domain": "data_analytics",
+    "role_family": "healthcare_reporting",
+    "seniority_band": "early",
+    "summary_title": "Healthcare Data Analyst",
+    "summary_text": "Early-career analyst supporting quality and population health teams. Eager to grow in regulated environments with strong documentation and validation habits.",
+    "experience": [
+      {"title": "Healthcare Data Analyst", "text": "Pulled HEDIS-aligned cohorts in SQL; assisted clinical leaders with numerator/denominator logic and audit-ready documentation.", "months": 18, "recency": 0},
+      {"title": "Analytics Intern", "text": "Visualized readmission trends in Tableau; supported monthly quality committee packets.", "months": 4, "recency": 18}
+    ],
+    "education": ["BS Public Health", "SQL for Data Analysis certificate"],
+    "skills": ["SQL", "Tableau", "HIPAA awareness", "Quality metrics", "Excel", "Technical writing"]
+  },
+  {
+    "resume_id": 5,
+    "primary_domain": "data_analytics",
+    "role_family": "product_analytics",
+    "seniority_band": "mid",
+    "summary_title": "Product Analyst",
+    "summary_text": "B2B SaaS product analyst linking funnel behavior, retention, and pricing experiments to roadmap bets. Partners closely with PMs and data engineers on event taxonomy and trustworthy reporting.",
+    "experience": [
+      {"title": "Product Analyst", "text": "Owned self-serve activation funnel: defined events, built cohort dashboards, and summarized experiment readouts for leadership.", "months": 28, "recency": 0},
+      {"title": "Marketing Analyst", "text": "Attributed pipeline to campaigns using multi-touch rules; advised demand gen on spend reallocation.", "months": 20, "recency": 30}
+    ],
+    "education": ["BA Economics", "Google Analytics certification"],
+    "skills": ["SQL", "Amplitude", "Experiment design", "Statistics", "Looker", "Storytelling with data"]
+  },
+  {
+    "resume_id": 6,
+    "primary_domain": "data_science",
+    "role_family": "ml_engineering",
+    "seniority_band": "mid",
+    "summary_title": "Machine Learning Engineer",
+    "summary_text": "ML engineer shipping ranking and recommendation models in production. Cares about monitoring, feature stores, and clean handoffs to platform teams.",
+    "experience": [
+      {"title": "ML Engineer", "text": "Deployed gradient-boosted ranking model behind job recommendations; added drift checks and shadow-mode evaluation before full rollout.", "months": 32, "recency": 0},
+      {"title": "Data Scientist", "text": "Prototyped embeddings for similar-item search; handed off training pipelines to Spark jobs owned by data platform.", "months": 24, "recency": 32}
+    ],
+    "education": ["MS Computer Science", "BS Software Engineering"],
+    "skills": ["Python", "PyTorch", "Spark", "Docker", "MLflow", "AWS"]
+  },
+  {
+    "resume_id": 7,
+    "primary_domain": "data_science",
+    "role_family": "research_ds",
+    "seniority_band": "senior",
+    "summary_title": "Senior Data Scientist",
+    "summary_text": "Biotech-focused data scientist with depth in survival analysis and clinical trial reporting. Comfortable working with statisticians and translating methods for cross-functional partners.",
+    "experience": [
+      {"title": "Senior Data Scientist", "text": "Supported adaptive trial readouts; implemented reproducible R workflows for interim analyses under biostat review.", "months": 48, "recency": 0},
+      {"title": "Data Scientist", "text": "Built patient journey models from claims and EHR extracts; documented assumptions for regulatory discussions.", "months": 36, "recency": 48}
+    ],
+    "education": ["PhD Statistics", "BS Biology"],
+    "skills": ["R", "Python", "Survival analysis", "GCP", "Clinical data", "Regulatory documentation"]
+  },
+  {
+    "resume_id": 8,
+    "primary_domain": "data_science",
+    "role_family": "nlp_search",
+    "seniority_band": "mid",
+    "summary_title": "Data Scientist",
+    "summary_text": "NLP-focused data scientist improving search and support deflection. Enjoys labeling strategies, evaluation harnesses, and pragmatic fine-tuning over hype.",
+    "experience": [
+      {"title": "Data Scientist", "text": "Fine-tuned encoder models for enterprise search; built offline precision/recall suite and A/B readout templates.", "months": 30, "recency": 0},
+      {"title": "Applied Scientist", "text": "Implemented ticket routing from subject and body text; reduced mis-triage rate versus keyword baseline.", "months": 18, "recency": 30}
+    ],
+    "education": ["MS Data Science", "BA Linguistics"],
+    "skills": ["Python", "Hugging Face", "Information retrieval", "AWS", "LLM evaluation", "Technical writing"]
+  },
+  {
+    "resume_id": 9,
+    "primary_domain": "data_science",
+    "role_family": "forecasting",
+    "seniority_band": "mid",
+    "summary_title": "Data Scientist",
+    "summary_text": "Forecasting and time-series specialist for revenue and capacity planning. Balances statistical rigor with tools planners can maintain after handoff.",
+    "experience": [
+      {"title": "Data Scientist", "text": "Replaced spreadsheet forecasts with hierarchical time-series models; cut WAPE on short-horizon SKU forecasts.", "months": 36, "recency": 0},
+      {"title": "Quantitative Analyst", "text": "Built Monte Carlo scenarios for staffing under demand uncertainty; presented ranges to operations leadership.", "months": 18, "recency": 36}
+    ],
+    "education": ["MS Applied Mathematics", "BS Finance"],
+    "skills": ["Python", "Prophet", "ARIMA", "Excel", "Forecast accuracy metrics", "Cross-functional facilitation"]
+  },
+  {
+    "resume_id": 10,
+    "primary_domain": "data_analytics",
+    "role_family": "public_sector",
+    "seniority_band": "early",
+    "summary_title": "Policy Data Analyst",
+    "summary_text": "Public-sector analyst supporting grants and program evaluation. Values transparent methods, clear caveats, and accessible visuals for non-technical stakeholders.",
+    "experience": [
+      {"title": "Policy Data Analyst", "text": "Geocoded service access metrics and published open-data summaries for community boards.", "months": 22, "recency": 0},
+      {"title": "Research Assistant", "text": "Cleaned survey microdata in R; produced reproducible tables for policy briefs.", "months": 12, "recency": 24}
+    ],
+    "education": ["MPA", "BA Political Science"],
+    "skills": ["R", "SQL", "GIS basics", "Survey methods", "Technical writing", "Public speaking"]
+  },
+  {
+    "resume_id": 11,
+    "primary_domain": "hr",
+    "role_family": "talent_acquisition",
+    "seniority_band": "mid",
+    "summary_title": "Talent Acquisition Partner",
+    "summary_text": "Full-cycle recruiter for engineering and product roles at a growth-stage company. Focuses on inclusive sourcing, structured interviews, and hiring-manager partnership.",
+    "experience": [
+      {"title": "Talent Acquisition Partner", "text": "Owned reqs from intake to offer; reduced time-to-fill for senior engineers by tightening scorecards and debrief discipline.", "months": 40, "recency": 0},
+      {"title": "Technical Recruiter", "text": "Built Boolean and GitHub sourcing plays; partnered with hiring managers on realistic leveling narratives.", "months": 24, "recency": 40}
+    ],
+    "education": ["BA Human Resources", "SHRM-CP"],
+    "skills": ["Greenhouse", "LinkedIn Recruiter", "Structured interviewing", "Offer negotiation", "Compliance basics", "Stakeholder communication"]
+  },
+  {
+    "resume_id": 12,
+    "primary_domain": "hr",
+    "role_family": "employee_relations",
+    "seniority_band": "senior",
+    "summary_title": "HR Business Partner",
+    "summary_text": "Senior HRBP supporting manufacturing and distribution leaders. Handles performance cases, change management, and union-aware communication where applicable.",
+    "experience": [
+      {"title": "Senior HR Business Partner", "text": "Led investigations and corrective action with consistent documentation; coached managers on difficult conversations.", "months": 54, "recency": 0},
+      {"title": "HR Generalist", "text": "Ran engagement surveys and action planning with plant leadership; supported reorganizations.", "months": 36, "recency": 54}
+    ],
+    "education": ["MBA", "BS Psychology"],
+    "skills": ["Employee relations", "Investigations", "Workday", "Labor relations awareness", "Coaching", "Policy interpretation"]
+  },
+  {
+    "resume_id": 13,
+    "primary_domain": "hr",
+    "role_family": "total_rewards",
+    "seniority_band": "mid",
+    "summary_title": "Compensation Analyst",
+    "summary_text": "Compensation analyst who loves survey matching, grade structures, and explaining pay philosophy without jargon.",
+    "experience": [
+      {"title": "Compensation Analyst", "text": "Maintained Radford and Mercer benchmarks; modeled merit budgets and pay equity scenarios for HR leadership.", "months": 34, "recency": 0},
+      {"title": "HR Analyst", "text": "Automated headcount and turnover reporting; supported annual merit cycle in Workday.", "months": 20, "recency": 34}
+    ],
+    "education": ["BS Finance", "WorldatWork CCP (in progress)"],
+    "skills": ["Excel", "Workday", "Survey job matching", "Pay structures", "Storytelling with numbers", "Attention to detail"]
+  },
+  {
+    "resume_id": 14,
+    "primary_domain": "finance",
+    "role_family": "fpna",
+    "seniority_band": "senior",
+    "summary_title": "FP&A Manager",
+    "summary_text": "FP&A manager owning forecasting, annual planning, and board-ready variance narratives for a mid-market software company.",
+    "experience": [
+      {"title": "FP&A Manager", "text": "Built rolling revenue forecast by segment; partnered with sales ops on pipeline-to-book assumptions and capacity hiring plan.", "months": 44, "recency": 0},
+      {"title": "Senior Financial Analyst", "text": "Automated month-end flux analysis templates; shortened close commentary cycle for corporate accounting.", "months": 30, "recency": 44}
+    ],
+    "education": ["MBA Finance", "BS Accounting"],
+    "skills": ["Excel", "Adaptive Insights", "GAAP basics", "Forecasting", "Board decks", "Cross-functional leadership"]
+  },
+  {
+    "resume_id": 15,
+    "primary_domain": "finance",
+    "role_family": "corporate_accounting",
+    "seniority_band": "mid",
+    "summary_title": "Corporate Accountant",
+    "summary_text": "Hands-on accountant comfortable with consolidations, intercompany, and tight close calendars. Enjoys cleaning reconciliations others avoid.",
+    "experience": [
+      {"title": "Corporate Accountant", "text": "Owned prepaid and fixed asset schedules; improved SOX control evidence for balance sheet reconciliations.", "months": 36, "recency": 0},
+      {"title": "Staff Accountant", "text": "Prepared journal entries and flux analyses for multi-entity close; supported external audit requests.", "months": 28, "recency": 36}
+    ],
+    "education": ["BS Accounting", "CPA"],
+    "skills": ["NetSuite", "Excel", "Month-end close", "Reconciliations", "SOX", "Audit support"]
+  },
+  {
+    "resume_id": 16,
+    "primary_domain": "finance",
+    "role_family": "internal_audit",
+    "seniority_band": "early",
+    "summary_title": "Internal Auditor",
+    "summary_text": "Early-career internal auditor testing ITGCs and business process controls. Building skills in sampling, workpaper quality, and clear issue write-ups.",
+    "experience": [
+      {"title": "Internal Auditor", "text": "Executed walkthroughs and tests of controls for procure-to-pay; tracked remediation for open findings.", "months": 20, "recency": 0},
+      {"title": "Audit Associate", "text": "Supported external financial statement audits for private clients; prepared tie-outs and confirmation tracking.", "months": 14, "recency": 20}
+    ],
+    "education": ["BS Accounting", "Data Analytics minor"],
+    "skills": ["Excel", "ACL", "Risk assessment", "Documentation", "Professional skepticism", "Time management"]
+  },
+  {
+    "resume_id": 17,
+    "primary_domain": "engineering",
+    "role_family": "structural",
+    "seniority_band": "mid",
+    "summary_title": "Structural Engineer",
+    "summary_text": "Licensed structural engineer designing commercial building systems. Comfortable coordinating with architects, MEP, and contractors in fast-paced projects.",
+    "experience": [
+      {"title": "Structural Engineer", "text": "Sized steel and concrete members for mid-rise office retrofits; performed lateral system checks per ASCE 7.", "months": 42, "recency": 0},
+      {"title": "EIT", "text": "Produced calculation packages and Revit coordination notes; assisted PE with shop drawing reviews.", "months": 30, "recency": 42}
+    ],
+    "education": ["MS Structural Engineering", "BS Civil Engineering", "PE license"],
+    "skills": ["Revit", "RAM Structural", "ASCE codes", "AutoCAD", "Construction administration", "Technical writing"]
+  },
+  {
+    "resume_id": 18,
+    "primary_domain": "engineering",
+    "role_family": "manufacturing_quality",
+    "seniority_band": "senior",
+    "summary_title": "Manufacturing Engineer",
+    "summary_text": "Senior manufacturing engineer focused on assembly line balance, PFMEA, and scrap reduction in automotive components.",
+    "experience": [
+      {"title": "Senior Manufacturing Engineer", "text": "Led line redesign for EV subassembly; reduced cycle time 12% through workstation layout and poka-yoke fixtures.", "months": 48, "recency": 0},
+      {"title": "Process Engineer", "text": "Owned CAPA investigations for dimensional drift; partnered with quality on SPC charting and control limits.", "months": 36, "recency": 48}
+    ],
+    "education": ["BS Mechanical Engineering", "Six Sigma Black Belt"],
+    "skills": ["SolidWorks", "PFMEA", "SPC", "Lean", "GD&T", "Project management"]
+  },
+  {
+    "resume_id": 19,
+    "primary_domain": "marketing",
+    "role_family": "performance_marketing",
+    "seniority_band": "mid",
+    "summary_title": "Performance Marketing Manager",
+    "summary_text": "Paid acquisition lead for DTC brand. Obsessed with incrementality tests, creative iteration cadence, and LTV-aware spend targets.",
+    "experience": [
+      {"title": "Performance Marketing Manager", "text": "Scaled Meta and Google spend while holding MER targets; introduced structured geo holdout tests for major campaigns.", "months": 32, "recency": 0},
+      {"title": "Growth Marketing Specialist", "text": "Built reporting in Google Sheets and Supermetrics; identified underperforming audiences and refreshed creative briefs.", "months": 22, "recency": 32}
+    ],
+    "education": ["BA Marketing", "Meta Blueprint certified"],
+    "skills": ["Google Ads", "Meta Ads", "GA4", "Creative testing", "Budget pacing", "Storytelling"]
+  },
+  {
+    "resume_id": 20,
+    "primary_domain": "marketing",
+    "role_family": "brand_content",
+    "seniority_band": "early",
+    "summary_title": "Content Marketing Coordinator",
+    "summary_text": "Early-career marketer producing blog, email, and webinar content for B2B SaaS. Learns fast in cross-functional pods with product marketing and design.",
+    "experience": [
+      {"title": "Content Marketing Coordinator", "text": "Managed editorial calendar; repurposed webinar clips into LinkedIn carousels that lifted demo requests.", "months": 16, "recency": 0},
+      {"title": "Marketing Intern", "text": "Drafted customer stories and newsletter copy; tracked basic engagement metrics in HubSpot.", "months": 4, "recency": 16}
+    ],
+    "education": ["BA Communications"],
+    "skills": ["HubSpot", "Copywriting", "Canva", "Email marketing", "SEO basics", "Project coordination"]
+  }
+]
