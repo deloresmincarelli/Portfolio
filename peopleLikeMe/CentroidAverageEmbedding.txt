@@ -1,0 +1,36 @@
+I have a python script that finds "professionals like me". 
+It takes resume's work experience bullets, and converts into an embedding.  
+It then creates one "centroid" embedding by taking a weighted average of all the individual embeddings. 
+See below.   
+
+
+What each bullet is
+Yes: each Experience bullet is turned into a 384-dimensional vector (an embedding). Same length for every bullet.
+
+What Step 2 aggregates (this is not “one number” yet)
+Step 2 does not collapse 384 numbers down to one number per resume.
+
+It does a weighted average of the whole vectors:
+
+For each of the 384 positions, you take a weighted average of that position across bullets (recent bullets can count more).
+The result is another 384-dimensional vector—the centroid C—still in the same space as the bullets.
+So the right description is:
+
+“Weighted mean (weighted average) of the bullet embedding vectors”
+or
+“A single resume-level embedding formed by averaging the bullet vectors with recency weights”
+or in slightly fancier language: “A weighted centroid in embedding space.”
+It is not “an embedding of embeddings” in the sense of running the language model again on the vectors; it is linear mixing of vectors you already have.
+
+Where the one number comes from
+That one number (e.g. cosine similarity) appears only when you compare two resumes:
+
+Build C for person A and C for person B (each still length 384).
+Cosine similarity between C_A and C_B is one scalar (your “centroid similarity” score).
+So:
+
+Aggregation → one vector per resume (384 dims).
+Match / comparison → one number per pair of resumes (similarity between those two vectors).
+If you say it in one line for a mixed audience:
+
+“We average the bullet meaning-vectors into one overall meaning-vector per person (recent bullets weighted more), then compare those overall vectors with cosine similarity.
