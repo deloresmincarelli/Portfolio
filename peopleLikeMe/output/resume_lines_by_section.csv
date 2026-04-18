@@ -1,0 +1,74 @@
+resume_id,section,line_text
+642,Unknown,Delores Mincarelli
+642,Unknown,5133166586 ◇ deloresmincarelli@yahoo.com ◇ LinkedIn
+642,Summary,Purpose-driven healthcare data scientist who partners closely with clinicians and managers to improve decision-making
+642,Summary,"through thoughtful analytics. Comfortable tackling routine, messy, and complex problems alike—finding scalable,"
+642,Summary,"repeatable solutions that strengthen systems over time. I bring strong critical thinking, clear communication, and a"
+642,Summary,"learning mindset to every engagement, using AI as a tool rather than a substitute for judgment."
+642,Work Experience,Senior Implementation Analyst
+642,Work Experience,"Hive Networks, Inc."
+642,Work Experience,Sep '23 — Present
+642,Work Experience,Louisville
+642,Work Experience,"•LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against baseline LLM, allowing for open discussion on tradeoffs."
+642,Work Experience,•Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and examples for over 100 Key Performance Indicators.This allows our AI Chat Bot to answer customer questions within the context of the metric.
+642,Work Experience,•Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-specific population management data; easy to maintain but flexible enough so each customer can define their own
+642,Work Experience,population management metrics.Used by all of our customers.
+642,Work Experience,"•Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,regression testing, and troubleshooting critical issues for high-profile deliverables."
+642,Work Experience,"•Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into data quality issues, and implemented solutions that improved reporting accuracy."
+642,Work Experience,•Delivered insightful visualizations to support decision-making and client communication.
+642,Work Experience,Pricipal and Owner
+642,Work Experience,"ClearAsData, LLC"
+642,Work Experience,Jan '23 — Present
+642,Work Experience,Louisville
+642,Work Experience,•Pro-bono data analysis services for mission-driven non profit organizations
+642,Work Experience,Data Scientist
+642,Work Experience,Midmark Corporation
+642,Work Experience,Aug '22
+642,Work Experience,"Versailles, United States"
+642,Work Experience,"•Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine learning."
+642,Work Experience,•Helped automate process to convert firmware dhall file to digital twin definition language to assess whether incoming telemetry data complies with design specifications.
+642,Work Experience,•Profiled incoming telemetry data in real time to detect issues and anomalies.
+642,Work Experience,Data Analyst
+642,Work Experience,Genetesis
+642,Work Experience,May '22
+642,Work Experience,Cincinnati
+642,Work Experience,•Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant
+642,Work Experience,magnetocardiography variables to determine healthy and unhealthy ranges.
+642,Work Experience,•Evaluated certain patient physical characteristics and impact on prediction model accuracy.
+642,Work Experience,"•Automated calculation of Sensitivity, Specificity, Accuracy and Confidence Intervals for clinical study results."
+642,Work Experience,Data Scientist
+642,Work Experience,TriHealth
+642,Work Experience,Apr '19
+642,Work Experience,Cincinnati
+642,Work Experience,•Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of staff (b) comparing operational efficiencies leading to shared learning between departments.
+642,Work Experience,"•Architected, programmed & delivered seminal work-flow to calculate utilization of anesthesiologists site wide."
+642,Work Experience,"•Provided data & dashboard to influence decision to use median procedure time vs ""one size fits all"" for high volume procedures in cardiac surgery department."
+642,Work Experience,"•Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process needed to ETL historical data and do daily refreshes of the data."
+642,Work Experience,•Prototyped optimization of nurse shift preferences with daily demand
+642,Work Experience,Lead Business Intelligence Developer
+642,Work Experience,TriHealth
+642,Work Experience,Nov '15
+642,Work Experience,Cincinnati
+642,Work Experience,Architected data strategy for Women’s Services department to improve quality of data input and for transparency of
+642,Work Experience,"KPI measures: pushed personalized KPI reports to each provider enabling continued improvement, contributing to"
+642,Work Experience,highest Leapfrog rating in 2018 for the first time.-Found statistical difference in breastfeeding rates based on delivery
+642,Work Experience,"method, providing focus for improvement work. Quantified reduction of opioid morphine milligram equivalents"
+642,Work Experience,(MME) for our inpatient Obstetrics population and provided results for each provider. The calculation of MME’s was
+642,Work Experience,landmark and provided a standard basis of comparing opioid levels.
+642,Skills,"Top Skills Critical Thinking, Python, AI-generated content, Problem Solving, Analysis"
+642,Skills,Languages Chinese/Mandarin Han Yu Shui Ping Kao Shi Certified Level 2
+642,Education,"Master of Science - MS, Business Analytics in Business Analytics, University of Cincinnati (GPA:"
+642,Education,3.97/4.0) Sep '19 — Apr '22
+642,Education,"BS, Chemical Engineering in Chemical Engineering, Clarkson University 1981 — 1985"
+642,Certifications,Epic Clinical Reporting - Stork
+642,Certifications,"Chinese Mandarin, Level 2 Proficiency (Han Yu Shui Ping HSK)"
+642,Publications,Abstract: Population Health Management for Juvenile Idiopathic Arthritis in the Pediatric Rheumatology
+642,Publications,Care and Outcomes Improvement Network (contributor)
+642,Publications,"American College of Rheumatology · Sep 2, 2024"
+642,Publications,Sep '24
+642,Publications,Reducing Outpatient Opiate Utilization in the Postpartum Period
+642,Publications,Obstetrics & Gynecology May '20
+642,Publications,Labor Progression Slower Than the Zhang Standards Is Associated With Worse Maternal and Fetal
+642,Publications,Outcomes
+642,Publications,Labor Progression Slower Than the Zhang Standards Is Associated With Worse Maternal and Fetal Outcomes
+642,Publications,May '19

@@ -1,0 +1,38 @@
+Here is a tiny 3‑dimensional version of exactly what Step 2 does (your real vectors have length 384, but the steps are the same).
+
+Setup — Resume A
+
+Bullet	Role in story	Embedding v	Weight α (example: recent vs old)
+1
+Recent
+v₁ = [1, 2, 3]
+α₁ = 1.25
+2
+Old
+v₂ = [1, 5, 7]
+α₂ = 0.75
+(Those weights match the “recent / old” style split from your notebook; the exact numbers depend on your RecencyMonthsAgo buckets.)
+
+Step 1 — Scale each vector by its weight
+α₁ v₁ = 1.25 × [1, 2, 3] = [1.25, 2.5, 3.75]
+
+α₂ v₂ = 0.75 × [1, 5, 7] = [0.75, 3.75, 5.25]
+
+Step 2 — Add the weighted vectors (component‑wise)
+α₁ v₁ + α₂ v₂ = [1.25 + 0.75, 2.5 + 3.75, 3.75 + 5.25] = [2, 6.25, 9]
+
+Step 3 — Add the weights
+α₁ + α₂ = 1.25 + 0.75 = 2
+
+Step 4 — Divide to get the centroid (weighted average)
+C_A = (α₁ v₁ + α₂ v₂) / (α₁ + α₂) = [2, 6.25, 9] / 2 = [1, 3.125, 4.5]
+
+So Resume A’s centroid is the 3‑vector C_A = [1, 3.125, 4.5].
+That is not a single number; it is one point in the same 3‑D space as the bullets.
+
+What you’d do next (comparison, not part of “forming” the centroid)
+To compare to Resume B, you would build C_B the same way, then compute something like cosine similarity between C_A and C_B — that similarity is one number.
+
+One‑line description you can reuse
+
+“The centroid is the weighted average of the bullet vectors: same dimension as each bullet, with recent bullets contributing more before we compare centroids between people.”

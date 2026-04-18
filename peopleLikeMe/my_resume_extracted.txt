@@ -1,0 +1,84 @@
+Delores Mincarelli
+5133166586 ◇ deloresmincarelli@yahoo.com ◇ LinkedIn
+SUMMARY
+Purpose-driven healthcare data scientist who partners closely with clinicians and managers to improve decision-making
+through thoughtful analytics. Comfortable tackling routine, messy, and complex problems alike—finding scalable,
+repeatable solutions that strengthen systems over time. I bring strong critical thinking, clear communication, and a
+learning mindset to every engagement, using AI as a tool rather than a substitute for judgment.
+EXPERIENCE
+Senior Implementation Analyst
+Hive Networks, Inc.
+Sep '23 — Present
+Louisville
+•LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against baseline LLM, allowing for open discussion on tradeoffs.
+•Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and examples for over 100 Key Performance Indicators. This allows our AI Chat Bot to answer customer questions within the context of the metric.
+•Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer- specific population management data; easy to maintain but flexible enough so each customer can define their own population management metrics. Used by all of our customers.
+•Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination , regression testing, and troubleshooting critical issues for high-profile deliverables.
+•Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into data quality issues, and implemented solutions that improved reporting accuracy. Delivered insightful visualizations to support decision-making and client communication.
+Pricipal and Owner
+ClearAsData, LLC
+Jan '23 — Present
+Louisville
+• Pro-bono data analysis for mission driven non profits. 
+Data Scientist
+Midmark Corporation
+Aug '22
+Versailles, United States
+•Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine
+learning.
+•Helped automate process to convert firmware dhall file to digital twin definition language to assess whether
+incoming telemetry data complies with design specifications.
+•Profiled incoming telemetry data in real time to detect issues and anomalies.
+Data Analyst
+Genetesis
+May '22
+Cincinnati
+•Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if
+publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant
+magnetocardiography variables to determine healthy and unhealthy ranges.
+•Evaluated certain patient physical characteristics and impact on prediction model accuracy.
+•Automated calculation of Sensitivity, Specificity, Accuracy and Confidence Intervals for clinical study results.
+Data Scientist
+TriHealth
+Apr '19
+Cincinnati
+•Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of
+staff (b) comparing operational efficiencies leading to shared learning between departments.
+•Architected, programmed & delivered seminal work-flow to calculate utilization of anesthesiologists site wide.
+•Provided data & dashboard to influence decision to use median procedure time vs "one size fits all" for high volume
+procedures in cardiac surgery department.
+•Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process
+needed to ETL historical data and do daily refreshes of the data.
+•Prototyped optimization of nurse shift preferences with daily demand,
+Lead Business Intelligence Developer
+TriHealth
+Nov '15
+Cincinnati
+
+Architected data strategy for Women’s Services department to improve quality of data input and for transparency of
+KPI measures: pushed personalized KPI reports to each provider enabling continued improvement, contributing to
+highest Leapfrog rating in 2018 for the first time.-Found statistical difference in breastfeeding rates based on delivery
+method, providing focus for improvement work. Quantified reduction of opioid morphine milligram equivalents
+(MME) for our inpatient Obstetrics population and provided results for each provider. The calculation of MME’s was
+landmark and provided a standard basis of comparing opioid levels.
+SKILLS
+Top Skills Critical Thinking, Python, AI-generated content, Problem Solving, Analysis
+Languages Chinese/Mandarin Han Yu Shui Ping Kao Shi Certified Level 2
+EDUCATION
+Master of Science - MS, Business Analytics in Business Analytics, University of Cincinnati (GPA:
+3.97/4.0) Sep '19 — Apr '22
+BS, Chemical Engineering in Chemical Engineering, Clarkson University 1981 — 1985
+CERTIFICATIONS
+Epic Clinical Reporting - Stork
+Chinese Mandarin, Level 2 Proficiency (Han Yu Shui Ping HSK)
+PUBLICATIONS
+Abstract: Population Health Management for Juvenile Idiopathic Arthritis in the Pediatric Rheumatology
+Care and Outcomes Improvement Network (contributor)
+American College of Rheumatology · Sep 2, 2024
+Sep '24
+Reducing Outpatient Opiate Utilization in the Postpartum Period
+Obstetrics & Gynecology May '20
+Labor Progression Slower Than the Zhang Standards Is Associated With Worse Maternal and Fetal
+Outcomes
+Labor Progression Slower Than the Zhang Standards Is Associated With Worse Maternal and Fetal Outcomes
+May '19

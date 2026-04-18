@@ -1,0 +1,19 @@
+resume_id,bullet_id,section,bullet_text,Is_Me
+642,1,Work Experience,"LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against baseline LLM, allowing for open discussion on tradeoffs.",1
+642,2,Work Experience,Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and examples for over 100 Key Performance Indicators.This allows our AI Chat Bot to answer customer questions within the context of the metric.,1
+642,3,Work Experience,Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer-specific population management data; easy to maintain but flexible enough so each customer can define their own,1
+642,4,Work Experience,"Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination ,regression testing, and troubleshooting critical issues for high-profile deliverables.",1
+642,5,Work Experience,"Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into data quality issues, and implemented solutions that improved reporting accuracy.",1
+642,6,Work Experience,Delivered insightful visualizations to support decision-making and client communication.,1
+642,7,Work Experience,Pro-bono data analysis services for mission-driven non profit organizations,1
+642,8,Work Experience,"Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine learning.",1
+642,9,Work Experience,Helped automate process to convert firmware dhall file to digital twin definition language to assess whether incoming telemetry data complies with design specifications.,1
+642,10,Work Experience,Profiled incoming telemetry data in real time to detect issues and anomalies.,1
+642,11,Work Experience,Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant,1
+642,12,Work Experience,Evaluated certain patient physical characteristics and impact on prediction model accuracy.,1
+642,13,Work Experience,"Automated calculation of Sensitivity, Specificity, Accuracy and Confidence Intervals for clinical study results.",1
+642,14,Work Experience,Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of staff (b) comparing operational efficiencies leading to shared learning between departments.,1
+642,15,Work Experience,"Architected, programmed & delivered seminal work-flow to calculate utilization of anesthesiologists site wide.",1
+642,16,Work Experience,"Provided data & dashboard to influence decision to use median procedure time vs ""one size fits all"" for high volume procedures in cardiac surgery department.",1
+642,17,Work Experience,"Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process needed to ETL historical data and do daily refreshes of the data.",1
+642,18,Work Experience,Prototyped optimization of nurse shift preferences with daily demand,1

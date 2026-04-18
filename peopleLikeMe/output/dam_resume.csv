@@ -1,0 +1,38 @@
+﻿ResumeID,Section,Title,ItemID,Text,MonthsDuration,RecencyMonthsAgo
+1,Summary,Analyst,1,"Purpose-driven healthcare data scientist who partners closely with clinicians and managers to improve decision-making
+through thoughtful analytics. Comfortable tackling routine, messy, and complex problems alike—finding scalable,
+repeatable solutions that strengthen systems over time. I bring strong critical thinking, clear communication, and a
+learning mindset to every engagement, using AI as a tool rather than a substitute for judgment.",,
+1,Experience,Analyst,2,"LLM Fine-Tuning & Evaluation (Healthcare Analytics): Fine Tuned a LLM on laboratory data, and evaluated against baseline LLM, allowing for open discussion on tradeoffs.",31,0
+1,Experience,Analyst,3,Created an automated process using Cursor AI to interpret complex SQL code and craft operational definitions and examples for over 100 Key Performance Indicators. This allows our AI Chat Bot to answer customer questions within the context of the metric.,31,0
+1,Experience,Analyst,4,Innovative Problem Solving in Analytics: Developed and implemented one robust database design to store customer- specific population management data; easy to maintain but flexible enough so each customer can define their own population management metrics. Used by all of our customers,31,0
+1,Experience,Analyst,5,"Collaborative Leadership in Technical Projects: Led end-to-end database releases, including overall coordination , regression testing, and troubleshooting critical issues for high-profile deliverables.",31,0
+1,Experience,Analyst,6,"Data-Driven Insights and Quality Improvements: Analyzed and resolved complex bugs, conducted deep dives into data quality issues, and implemented solutions that improved reporting accuracy. Delivered insightful visualizations to support decision-making and client communication.",31,0
+1,Experience,Owner,7,Pro-bono data analysis for mission driven non profits. ,31,0
+1,Experience,Data scientist,8,"Data Engineering: gathering, flattening, cleaning data lake telemetry data into organized tables enabling machine
+learning.",12,36
+1,Experience,Data scientist,9,"Helped automate process to convert firmware dhall file to digital twin definition language to assess whether
+incoming telemetry data complies with design specifications.",12,36
+1,Experience,Data scientist,10,Profiled incoming telemetry data in real time to detect issues and anomalies.,12,36
+1,Experience,Analyst Intern,11,"Applied statistical methods evaluating variables from two leading magentocardiography publications to determine if
+publication results were repeatable using Genetesis clinical study data•Created methodology for assessing significant
+magnetocardiography variables to determine healthy and unhealthy ranges.",4,54
+1,Experience,Analyst Intern,12,Evaluated certain patient physical characteristics and impact on prediction model accuracy.,4,54
+1,Experience,Analyst Intern,13,"Automated calculation of Sensitivity, Specificity, Accuracy and Confidence Intervals for clinical study results.",4,54
+1,Experience,Data Scientist,14,"Provided significance tests for cardiac surgery department (a) to determine volumes did not support reduction of
+staff (b) comparing operational efficiencies leading to shared learning between departments",36,58
+1,Experience,Data Scientist,15,"Architected, programmed & delivered seminal work-flow to calculate utilization of anesthesiologists site wide.",36,58
+1,Experience,Data Scientist,16,"Provided data & dashboard to influence decision to use median procedure time vs ""one size fits all"" for high volume
+procedures in cardiac surgery department.",36,58
+1,Experience,Data Scientist,17,"Created views, stored procedures and tables underpinning nurse scheduling optimization project; architected process
+needed to ETL historical data and do daily refreshes of the data.",36,58
+1,Experience,Data Scientist,18,Prototyped optimization of nurse shift preferences with daily demand,36,58
+1,Education,,19,MS Business Analytics,,36
+1,Education,,20,BS Chemical Engineering,,480
+1,Skills,,21,Critical Thinking,,
+1,Skills,,22,Python,,
+1,Skills,,23,AI,,
+1,Skills,,24,Problem Solving,,
+1,Skills,,25,Analysis,,
+1,Skills,,26,PowerBI,,
+1,Skills,,27,Tableau,,
