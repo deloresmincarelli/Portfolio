@@ -24,7 +24,7 @@ But one of the most important characteristics I bring is humility and passion fo
 
 ## Now that you know who I am, let me show you what I can do:
 ## Project:  Professionals Like Me 
-<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/portfolio.png" width="600" />
+<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/portfolio.png" width="500" />
 Professionals Like Me is an exploratory NLP project focused on measuring similarity between individuals using resume text as a blend of structured and unstructured data. The core challenge was balancing high-level summaries with granular work experience to create meaningful, comparable representations.
 
 I experimented with multiple embedding strategies: aggregating experience bullets into a single vector (with recency-based weighting), and alternatively preserving detail through pairwise bullet-to-bullet similarity. To standardize time as a signal, I transformed timelines into duration and recency features, allowing recent experience to carry more influence in similarity scoring.
@@ -33,7 +33,7 @@ The result is a flexible framework for identifying “professionals like me” t
 
 So What?? This approach can extend to other domains where entities have both summary and detailed signals—for example: patients with similar clinical journeys, customers with comparable behaviors, students with similar learning paths, or organizations with analogous operational patterns.
 
-#### [test](https://github.com/deloresmincarelli/Portfolio/blob/main/Multi_Layered_Resume_Semantic_Analysis.pdf)
+#### [Professionals Like Me](https://github.com/deloresmincarelli/Portfolio/blob/main/Multi_Layered_Resume_Semantic_Analysis.pdf)
 
 
 ## Project : Generating Synthetic Data
