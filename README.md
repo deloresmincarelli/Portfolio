@@ -33,6 +33,9 @@ The result is a flexible framework for identifying “professionals like me” t
 
 So What?? This approach can extend to other domains where entities have both summary and detailed signals—for example: patients with similar clinical journeys, customers with comparable behaviors, students with similar learning paths, or organizations with analogous operational patterns.
 
+#### [test](https://github.com/deloresmincarelli/Portfolio/blob/main/Multi_Layered_Resume_Semantic_Analysis.pdf)
+
+
 ## Project : Generating Synthetic Data
 Wait .. I thought we were in the age of "big data"... why do we want to synthetically create more?
 <br> Synthetic data is useful to complement existing data for "edge" cases, amplifying minority data, or even a way to circumvent using sensitive & protected information (like medical patient information).  Further, getting "real" data can be expensive especially in cases where you need to ruin what you are studying so you can get data before failure.  
