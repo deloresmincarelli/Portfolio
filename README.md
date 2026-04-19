@@ -24,7 +24,7 @@ But one of the most important characteristics I bring is humility and passion fo
 
 ## Now that you know who I am, let me show you what I can do:
 ## Project:  Professionals Like Me 
-<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/portfolio.png" width="1000" />
+<img src="https://github.com/deloresmincarelli/Portfolio/blob/main/images/portfolio.png" width="100" />
 Professionals Like Me is an exploratory NLP project focused on measuring similarity between individuals using resume text as a blend of structured and unstructured data. The core challenge was balancing high-level summaries with granular work experience to create meaningful, comparable representations.
 
 I experimented with multiple embedding strategies: aggregating experience bullets into a single vector (with recency-based weighting), and alternatively preserving detail through pairwise bullet-to-bullet similarity. To standardize time as a signal, I transformed timelines into duration and recency features, allowing recent experience to carry more influence in similarity scoring.
