@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>corpus_similarity</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>corpus_similarity_smallversioin</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7818,31 +7818,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=72548d27">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Get-resumes-in-consumable-format">Get resumes in consumable format<a class="anchor-link" href="#Get-resumes-in-consumable-format">¶</a></h2><ul>
-<li>( see build_resume_corpus.ipynb )</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e7057999">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img alt="resume in excel" src="images/resume_in_excel.png"/></p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5d8fc05a">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ebf2cec6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8444,71 +8420,6 @@ Use top‑k (or proportional k) over per-bullet best matches so a few strong lin
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e0eee2cb">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li><p>What if Resume A has 10 bullets, B has 3 — what’s the impact?
-Per resume: A’s centroid uses only A’s 10 vectors; B’s uses only B’s 3. Bullet counts do not get mixed when building each centroid.
-Still comparable: Both centroids live in the same embedding space, so cosine between C_A and C_B is well-defined.</p>
-</li>
-<li><p>How count matters (indirectly):</p>
-</li>
-</ul>
-<p>More bullets → the centroid is an average over more directions. Diverse bullets can pull the average toward something broader / more “middle” (sometimes described as washing out sharp specialties). Many bullets saying similar things pull the centroid strongly toward that theme (especially if weights are similar).
-Fewer bullets → the centroid is dominated by those few directions; it can look more specific or noisier as a summary of the whole career, depending on what those three bullets say.
-So: 10 vs 3 does not change the mathematical type (always one 384‑dim vector per resume). It changes how that vector is formed and therefore where it sits in space—and that in turn affects the cosine score when you compare A to B, but there is no separate “penalty” for 10 vs 3 in the centroid formula itself; the effect shows up through content and diversity of those bullets (and your recency weights).</p>
-<p><strong>CentroidSim</strong> compares each resume’s <strong>single centroid vector</strong> <strong>C_R</strong>: a <strong>weighted mean</strong> of <strong>Experience</strong> row embeddings from <code>corpus_with_embedding.csv</code> (same dimension as one bullet, e.g. 384). <strong>CentroidSim</strong> vs <code>TARGET_RESUME_ID</code> is <strong>cosine similarity</strong> between <strong>C_target</strong> and each <strong>C_R</strong> via <code>sklearn.metrics.pairwise.cosine_similarity</code>.</p>
-<p><strong>Configurable (top of the next code cell):</strong> three weights <code>WEIGHT_EXPERIENCE_RECENT</code> / <code>MID</code> / <code>OLD</code>, and two month cutoffs <code>RECENCY_MONTHS_AGO_MAX_RECENT</code> and <code>RECENCY_MONTHS_AGO_MAX_MID</code> from <code>RecencyMonthsAgo</code> (<strong>NaN</strong> → recent tier). Invalid thresholds (<code>MAX_RECENT &gt;= MAX_MID</code>) raise <strong><code>ValueError</code></strong>.</p>
-<p>A centroid captures <strong>broad semantic overlap</strong> across bullets, but <strong>averaging can wash out</strong> sharp specialties; <strong>many similar bullets</strong> pull <strong>C_R</strong> toward that theme. Use this as <strong>component 2</strong> of a future composite, not a full similarity verdict.</p>
-<p><strong>Checks:</strong> target self-similarity <strong>≈ 1</strong>; all cosines in <strong>[-1, 1]</strong>. Spot-read Experience text for a few pairs against the ranking.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4cbba1a9">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Example:-What%E2%80%99s-actually-happening">Example: What’s actually happening<a class="anchor-link" href="#Example:-What%E2%80%99s-actually-happening">¶</a></h3><p>Original vector:<br/>
-v = [1, 2, 3]<br/>
-Scaled vector because this bullet is recent (configurable):<br/>
-1.25 × v = [1.25, 2.5, 3.75]<br/>
-Key geometric insight<br/>
-The direction does NOT change<br/>
-Only the length (magnitude) increases<br/>
-The scaled vector lies on the same line from the origin<br/>
-Now translate that to embeddings (this is the important part)</p>
-<p>Think of an embedding like:</p>
-<p>A direction in space = the meaning
-The length = how strongly that meaning is expressed (or weighted)</p>
-<p>So… does scaling change meaning?</p>
-<p>Short answer:
-👉 No — scaling does NOT change the semantic meaning</p>
-<p>Why:</p>
-<p>Most embedding comparisons use cosine similarity<br/>
-Cosine similarity depends only on angle, not magnitude</p>
-<p>So:</p>
-<p>v and 1.25·v<br/>
-have identical cosine similarity (1.0)<br/>
-→ interpreted as exact same meaning<br/>
-Why scaling is still used (important for your centroid work)</p>
-<p>Scaling is not about changing meaning — it's about influence.</p>
-<p>From your example:</p>
-<p>Recent bullet → weight = 1.25<br/>
-Older bullet → weight = 0.75</p>
-<p>When you scale:</p>
-<p>You’re saying:
-👉 “This vector should pull the centroid more”</p>
-</div>
-</div>
-</div>
-</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e725670d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8516,35 +8427,6 @@ Older bullet → weight = 0.75</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><img alt="vector scaling" src="images/vectorscale.png"/></p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7b18dfbd">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Example">Example<a class="anchor-link" href="#Example">¶</a></h3><p>(your real vectors have length 384, but the steps are the same).</p>
-<p>Setup — Resume A</p>
-<p>Recent<br/>
-v₁ = [1, 2, 3]<br/>
-α₁ = 1.25</p>
-<p>Old<br/>
-v₂ = [1, 5, 7]<br/>
-α₂ = 0.75</p>
-<p>Step 1 — Scale each vector by its weight<br/>
-α₁ v₁ = 1.25 × [1, 2, 3] = [1.25, 2.5, 3.75]</p>
-<p>α₂ v₂ = 0.75 × [1, 5, 7] = [0.75, 3.75, 5.25]</p>
-<p>Step 2 — Add the weighted vectors (component‑wise)<br/>
-α₁ v₁ + α₂ v₂ = [1.25 + 0.75, 2.5 + 3.75, 3.75 + 5.25] = [2, 6.25, 9]</p>
-<p>Step 3 — Add the weights<br/>
-α₁ + α₂ = 1.25 + 0.75 = 2</p>
-<p>Step 4 — Divide to get the centroid (weighted average)<br/>
-C_A = (α₁ v₁ + α₂ v₂) / (α₁ + α₂) = [2, 6.25, 9] / 2 = [1, 3.125, 4.5]</p>
-<p>So Resume A’s centroid is the 3‑vector C_A = [1, 3.125, 4.5].<br/>
-That is not a single number; it is one point in the same 3‑D space as the bullets.</p>
 </div>
 </div>
 </div>
@@ -8917,51 +8799,6 @@ That is not a single number; it is one point in the same 3‑D space as the bull
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><img alt="3BulletBestMatch" src="3BulletBestMatch.png"/></p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=209b2ed4">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Explain-K">Explain K<a class="anchor-link" href="#Explain-K">¶</a></h3><p>What “configurable k” means here
-k is how many strongest per-bullet matches you keep when turning a full bullet–bullet matrix into one number per direction.</p>
-<p>For each direction you first compute many scores, then you do not average all of them. You:</p>
-<p>Take one score per bullet on that side (its best match on the other side).
-Sort those scores high → low.
-Keep only the top k (after capping—see below) and take their mean.
-So k answers: “How much of the best overlap should count, before longer resumes dilute the signal?”</p>
-<p>The plan makes k “configurable” by driving it from three knobs at the top of the cell (defaults in the plan):</p>
-<p>BULLET_TOPK_MIN (e.g. 2) — never use fewer than this in the formula’s inner max (unless the resume has fewer bullets than that—then you use what you have).
-BULLET_TOPK_FRACTION_OF_MIN (e.g. 0.4) — scale k with min(m, n), where m = target bullet count, n = other resume’s bullet count (for that pair).
-BULLET_TOPK_MAX (e.g. 5) — cap k so it never gets huge on long resumes.
-Formula (as in the plan):</p>
-<p>k = min(max(BULLET_TOPK_MIN, floor(FRACTION * min(m, n))), BULLET_TOPK_MAX)</p>
-<p>Then when taking the mean of “top k” scores:</p>
-<p>T → R: you have m scores (one per target bullet). Use k_eff = min(k, m) scores.
-R → T: you have n scores (one per R bullet). Use k_eff2 = min(k, n) scores.
-“Configurable” means: you change BULLET_TOPK_MIN, BULLET_TOPK_FRACTION_OF_MIN, or BULLET_TOPK_MAX to make k larger or smaller for the same (m, n)—tuning how much you emphasize peak overlap vs breadth.</p>
-<p>Your example: A has 10 bullets, B has 5
-Fix which resume is the target (call it T). The other is R.</p>
-<p>Case 1 — Target is A (10 bullets), other is B (5)
-Then m = 10, n = 5, min(m, n) = 5.</p>
-<p>With defaults MIN=2, FRACTION=0.4, MAX=5:</p>
-<p>floor(0.4 * 5) = 2</p>
-<p>max(2, 2) = 2</p>
-<p>min(2, 5) = 2
-So k = 2.</p>
-<p>A → B: for each of 10 A-bulits, best cosine to some B-bullet → 10 numbers; keep the top 2 of those 10; mean of those 2.</p>
-<p>B → A: for each of 5 B-bulits, best cosine to some A-bullet → 5 numbers; keep the top 2 of those 5; mean of those 2.</p>
-<p>BulletMatchSim(A, B) = average of those two means.</p>
-<p>Case 2 — Target is B (5 bullets), other is A (10)
-Still min(10, 5) = 5, so k = 2 again. The matrix is 5×10 instead of 10×5, but min(m,n) is the same, so k is the same. The two directions still use m and n correctly for how many “per-bullet best” scores exist on each side.</p>
-<p>Intuition
-Smaller k (e.g. sticking near 2 for this pair): the score is driven mostly by the strongest alignments; weak bullets barely move it.
-Larger k (raise FRACTION or MAX): you average more of the per-bullet bests, so the score reflects more of the resume’s bullets, not only the sharpest peaks.
-So for 10 vs 5, with default knobs, k = 2 is the planned behavior for both directions’ top‑k means before they are combined.</p>
 </div>
 </div>
 </div>
